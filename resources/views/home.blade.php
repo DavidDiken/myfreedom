@@ -11,5 +11,5 @@
         <div class="card"><strong>Преимущество 2</strong><br>1-2 строки конкретной пользы.</div>
         <div class="card"><strong>Преимущество 3</strong><br>1-2 строки конкретной пользы.</div>
     </div>
-
+    @include('form')
 @endsection
