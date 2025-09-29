@@ -10,10 +10,16 @@
 </head>
 <body>
     <nav class="nav">
-        <a href="{{ route('home') }}" class="{{ request()->routeIs('home') ? 'active' : '' }}">Home</a>
-        <a href="{{ route('tariff.basic') }}" class="{{ request()->routeIs('tariff.basic') ? 'active' : '' }}">Tariff Basic</a>
-        <a href="{{ route('tariff.standard') }}" class="{{ request()->routeIs('tariff.standard') ? 'active' : '' }}">Tariff Standard</a>
-        <a href="{{ route('tariff.premium') }}" class="{{ request()->routeIs('tariff.premium') ? 'active' : '' }}">Tariff Premium</a>
+        <div class="nav-logo">LOGO</div>
+        <div class="nav-center">
+            <a href="{{ route('home') }}" class="{{ request()->routeIs('home') ? 'active' : '' }}">Home</a>
+            <a href="{{ route('tariff.basic') }}" class="{{ request()->routeIs('tariff.basic') ? 'active' : '' }}">Tariff Basic</a>
+            <a href="{{ route('tariff.standard') }}" class="{{ request()->routeIs('tariff.standard') ? 'active' : '' }}">Tariff Standard</a>
+            <a href="{{ route('tariff.premium') }}" class="{{ request()->routeIs('tariff.premium') ? 'active' : '' }}">Tariff Premium</a>
+        </div>
+        <div class="nav-right">
+            <a href="#consultation" class="btn">Get Consultation</a>
+        </div>
     </nav>
     @yield('content')
     <footer class="container">
