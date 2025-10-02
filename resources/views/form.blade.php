@@ -14,7 +14,7 @@
             <br>
         @endif
 
-        <form method="post" action="{{ route('consultation.store') }}" class="card">
+        <form method="post" id="consultation-form" action="{{ route('consultation.store') }}" class="card">
             @csrf
 
             <div style="display:grid; gap:12px;">

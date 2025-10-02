@@ -71,6 +71,10 @@
 @theme {
     --font-sans: 'BlissPro', 'Montserrat', sans-serif;
 }
+
+html {
+    scroll-behavior: smooth;
+}
 .logo img {
     width: 120px;
     height: auto;
@@ -82,14 +86,124 @@
         .nav a { text-decoration: none; color:#ffffff; padding:8px 12px; border-radius:10px; }
         .nav a.active { color:#E1CF95; }
         .hero { padding: 56px 0 24px; }
-        h1 { color: white; font-size: clamp(28px, 5vw, 54px); font-weight:800; margin:0 0 12px;}
-        h2 { color: #E1CF95; font-size: clamp(22px, 4vw, 40px)}
-        h3 { color: #37625A; font-size: clamp(18px, 3vw, 28px)}
-        h4 { color: #525252; font-size: clamp(16px, 2vw, 20px)}
-        .sub { color:#475569; font-size: 18px; }
+        h1 { color: white; font-size: clamp(28px, 5vw, 44px); font-weight:800; margin:0 0 12px; line-height: normal}
+        h2 { color: #E1CF95; font-size: clamp(22px, 4vw, 32px)}
+        h3 { color: #37625A; font-size: clamp(18px, 3vw, 22px)}
+        h4 { color: #525252; font-size: clamp(16px, 2vw, 18px)}
+        .sub { color:#ffffff82; font-size: 16px; }
         .grid { display:grid; gap:16px; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); margin: 24px 0; }
         .card { border-radius:36px; padding:28px; background:#fff; }
-        button, .btn { display:inline-block; padding:10px 16px; border-radius:50px; background:#E1CF95; color:#19443C; text-decoration:none; font-weight: 500;}
+        button, .btn { display:inline-block; padding:10px 16px; border-radius:50px; background:#E1CF95; color:#19443C; text-decoration:none; font-weight: 500; cursor: pointer; transition: all 0.3s ease;}
+button:hover,
+.btn:hover {
+    background: #876d28;
+    color: #fff;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
         footer { margin-top:48px; padding:24px 0; color:white; font-size:14px; border-top:1px solid #e5e7eb; display: flex; justify-content: center; }
 
-        .nav-center { justify-content: center; padding: 8px 26px; border-radius: 50px; background-color: rgba(255, 255, 255, 0.224); gap: 50px; display: flex;}
+        .nav-center { justify-content: center; padding: 8px 26px; border-radius: 50px; background-color: #ffffff0f; gap: 50px; display: flex;}
+
+
+.glass {
+    background: rgba(255, 255, 255, 0.08);             /* прозрачность */
+    border: 1px solid rgba(255, 255, 255, 0.25);        /* тонкая светлая рамка */
+    border-radius: 24px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.25);           /* мягкая тень */
+    backdrop-filter: blur(12px) saturate(140%);         /* ключевой эффект */
+    -webkit-backdrop-filter: blur(18px) saturate(160%); /* для Safari/iOS */
+    padding: 24px 28px;
+    color: #fff;
+    position: relative;
+}
+
+/* Лёгкий верхний блик */
+.glass::before {
+    content: "";
+    position: absolute; inset: 0;
+    border-radius: inherit;
+    background: linear-gradient(180deg, rgba(255,255,255,0.35), rgba(255,255,255,0) 40%);
+    pointer-events: none;
+    mix-blend-mode: screen;           /* деликатнее бликует */
+}
+
+/* Фолбэк для браузеров без backdrop-filter */
+@supports not ((backdrop-filter: blur(1px))) {
+    .glass {
+        background: rgba(255,255,255,0.12);
+    }
+}
+
+
+
+.hero_tag {
+    color: #afafaf;
+    font-size: 14px !important;
+    padding: 6px 24px;
+    border-radius: 50px;
+    width: max-content;
+    background-color: #ffffff12;
+}
+
+.flex20 {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+
+.hero {
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+}
+
+.hero_left {
+    max-width: 750px;
+}
+
+.hero_right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero_video {
+    background-color: black;
+    width: 550px;
+    height: 300px;
+    border-radius: 20px;
+    transform: rotate(3deg);
+    display: flex;                /* выравнивание кнопки по центру */
+    justify-content: center;
+    align-items: center;
+}
+
+.play-button {
+    width: 120px;
+    height: 80px;
+    background: white;
+    border-radius: 30px;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+    transition: transform 0.3s ease;
+}
+
+.play-button:hover {
+    transform: scale(1.1); /* эффект при наведении */
+}
+
+/* красный треугольник */
+.play-button::before {
+    content: "";
+    position: absolute;
+    left: 52px; /* сдвиг внутрь круга */
+    top: 22px;
+    width: 0;
+    height: 0;
+    border-left: 26px solid red;      /* треугольник */
+    border-top: 18px solid transparent;
+    border-bottom: 18px solid transparent;
+}
