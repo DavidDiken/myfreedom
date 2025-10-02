@@ -1,5 +1,5 @@
 <section id="consultation-form" style="margin-top:32px;">
-        <h2 class="h1" style="font-size: clamp(22px, 4vw, 32px);">Заявка на безкоштовну консультацію</h2>
+        <h2 style="font-size: clamp(22px, 4vw, 32px);">Заявка на безкоштовну консультацію</h2>
         <p class="sub">Заповніть, будь ласка, обов'язкові поля.</p>
 
         @if ($errors->any())

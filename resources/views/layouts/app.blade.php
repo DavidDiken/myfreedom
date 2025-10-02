@@ -10,7 +10,9 @@
 </head>
 <body>
     <nav class="nav">
-        <div class="nav-logo">LOGO</div>
+        <div class="logo">
+            <img src="{{ asset('images/logo_MYFREEDOM_invest_2_gold.svg') }}" alt="Логотип" />
+        </div>
         <div class="nav-center">
             <a href="{{ route('home') }}" class="{{ request()->routeIs('home') ? 'active' : '' }}">Home</a>
             <a href="{{ route('tariff.basic') }}" class="{{ request()->routeIs('tariff.basic') ? 'active' : '' }}">Tariff Basic</a>
@@ -18,13 +20,15 @@
             <a href="{{ route('tariff.premium') }}" class="{{ request()->routeIs('tariff.premium') ? 'active' : '' }}">Tariff Premium</a>
         </div>
         <div class="nav-right">
-            <a href="#consultation" class="btn">Get Consultation</a>
+            <a><span class="btn">Get Consultation</span></a>
         </div>
     </nav>
-    @yield('content')
+    <div class="container">
+        @yield('content')
+    </div>
     <footer class="container">
         &copy; {{ date('Y') }} MYFREEDOM. All rights reserved.
     </footer>
-    
+
 </body>
 </html>
