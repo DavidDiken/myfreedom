@@ -393,8 +393,8 @@ footer {
 }
 
 .problems-list {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 30px;
 }
 
@@ -478,4 +478,100 @@ footer {
   font-size: 16px;
   color: #333;
   line-height: 1.4;
+}
+
+.multi-before-after {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.multi-before-after h2 {
+  font-size: clamp(24px, 4vw, 36px);
+  color: #E1CF95;
+}
+
+.multi-before-after h2 span {
+  color: #fff;
+}
+
+.multi-before-after .description {
+  color: #ccc;
+  margin-bottom: 40px;
+}
+
+.before-after-grid {
+  display: grid;
+  gap: 40px;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+.ba-item {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+
+.ba-wrapper {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+}
+
+.ba-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.ba-overlay {
+  position: absolute;
+  top: 0; left: 0;
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.ba-overlay img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.ba-slider {
+  position: absolute;
+  bottom: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  z-index: 3;
+  -webkit-appearance: none;
+  background: transparent;
+}
+
+.ba-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  background: #E1CF95;
+  border-radius: 50%;
+  border: 2px solid #19443C;
+  cursor: pointer;
+}
+
+.ba-slider::-webkit-slider-runnable-track {
+  height: 4px;
+  background: #aaa;
+  border-radius: 2px;
+}
+
+.ba-caption {
+  font-size: 16px;
+  color: #ffffffcc;
 }

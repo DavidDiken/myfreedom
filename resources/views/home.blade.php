@@ -24,7 +24,7 @@
 <br>
 <br>
 <section class="course-benefits">
-  <div class="container">
+  <div class="container" style="display: flex; flex-direction: column; align-items: center;">
     <div class="section-header">
       <h2>Для кого буде корисним цей курс?</h2>
       <p class="subtitle">Для всіх, хто робить ремонт у квартирі під здачу</p>
@@ -84,7 +84,9 @@
       </div>
 
     </div>
-
+    <br>
+    <br>
+      <a href=""><button>Подивитись пакети курсу</button></a>
   </div>
 </section>
 <section>
@@ -115,5 +117,68 @@
     </div>
 </section>
 
+<section class="multi-before-after">
+  <div class="container">
+    <h2>Галерея <span>до / після</span></h2>
+    <p class="description">Кожен приклад — реальна квартира, яку ми підготували до оренди</p>
+
+    <div class="before-after-grid">
+
+      <!-- Элемент 1 -->
+      <div class="ba-item">
+        <div class="ba-wrapper">
+            
+          <img src="/images/before1.png" class="ba-img before">
+          <div class="ba-overlay">
+            <img src="/images/after1.png" class="ba-img after">
+          </div>
+          <input type="range" min="0" max="100" value="50" class="ba-slider">
+        </div>
+        <p class="ba-caption">Кухня в ЖК “Комфорт+”</p>
+      </div>
+
+      <!-- Элемент 2 -->
+      <div class="ba-item">
+        <div class="ba-wrapper">
+          <img src="/images/before2.png" class="ba-img before">
+          <div class="ba-overlay">
+            <img src="/images/after2.png" class="ba-img after">
+          </div>
+          <input type="range" min="0" max="100" value="50" class="ba-slider">
+        </div>
+        <p class="ba-caption">Санвузол у ЖК “Софія”</p>
+      </div>
+
+      <!-- Элемент 3 -->
+      <div class="ba-item">
+        <div class="ba-wrapper">
+          <img src="/images/before3.png" class="ba-img before">
+          <div class="ba-overlay">
+            <img src="/images/after3.png" class="ba-img after">
+          </div>
+          <input type="range" min="0" max="100" value="50" class="ba-slider">
+        </div>
+        <p class="ba-caption">Вітальня у ЖК “Парковий”</p>
+      </div>
+
+      <!-- Добавляй больше блоков по той же структуре -->
+
+    </div>
+  </div>
+</section>
+
     @include('form')
 @endsection
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll(".ba-item").forEach(function (item) {
+      const slider = item.querySelector(".ba-slider");
+      const overlay = item.querySelector(".ba-overlay");
+
+      slider.addEventListener("input", function () {
+        overlay.style.width = `${this.value}%`;
+      });
+    });
+  });
+</script>
