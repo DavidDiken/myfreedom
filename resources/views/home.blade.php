@@ -280,7 +280,7 @@
             <p class="sub">Бачите, який обсяг підтримки отримаєте з кожним рівнем співпраці.</p>
         </div>
 
-        <div class="package-table-wrapper card">
+        <div class="package-table-wrapper glass">
             <table class="package-table">
                 <thead>
                     <tr>
@@ -295,7 +295,7 @@
                         <td>Стратегічна консультація</td>
                         <td data-label="INVEST PRO">
                             <span class="sr-only">Включено</span>
-                            <span class="package-note">від 3% від загальної суми інвестиції</span>
+                            <span class="package-note" style="color: #E1CF95;">від 3% від загальної суми інвестиції</span>
                         </td>
                         <td data-label="SMART"><span class="package-dash">—</span></td>
                         <td data-label="SELF"><span class="package-dash">—</span></td>
@@ -313,11 +313,11 @@
                         <td>Технагляд</td>
                         <td data-label="INVEST PRO">
                             <span class="sr-only">Включено</span>
-                            <span class="package-note">4 виїзди</span>
+                            <span class="package-note" style="color: #E1CF95;">4 виїзди</span>
                         </td>
                         <td data-label="SMART">
                             <span class="sr-only">Включено</span>
-                            <span class="package-note">1 виїзд</span>
+                            <span class="package-note" style="color: #E1CF95;">1 виїзд</span>
                         </td>
                         <td data-label="SELF"><span class="package-dash">—</span></td>
                     </tr>
@@ -325,15 +325,15 @@
                         <td>ТЗ та комплектація</td>
                         <td data-label="INVEST PRO">
                             <span class="sr-only">Включено</span>
-                            <span class="package-note">індивідуально</span>
+                            <span class="package-note" style="color: #E1CF95;">індивідуально</span>
                         </td>
                         <td data-label="SMART">
                             <span class="sr-only">Включено</span>
-                            <span class="package-note">шаблони</span>
+                            <span class="package-note" style="color: #E1CF95;">шаблони</span>
                         </td>
                         <td data-label="SELF">
                             <span class="sr-only">Включено</span>
-                            <span class="package-note">інструкція</span>
+                            <span class="package-note" style="color: #E1CF95;">інструкція</span>
                         </td>
                     </tr>
                     <tr>
@@ -355,7 +355,7 @@
                             <span class="package-icon package-icon--check" aria-hidden="true">✓</span>
                             <span class="sr-only">Включено</span>
                         </td>
-                        <td data-label="SELF"><span class="package-note">самостійно</span></td>
+                        <td data-label="SELF"><span class="package-note" style="color: #E1CF95;">самостійно</span></td>
                     </tr>
                     <tr>
                         <td>ROI-калькулятор і чек-листи</td>
@@ -376,13 +376,13 @@
                         <td>Можливість консультації</td>
                         <td data-label="INVEST PRO">
                             <span class="sr-only">Включено</span>
-                            <span class="package-note">у пакеті</span>
+                            <span class="package-note" style="color: #E1CF95;">у пакеті</span>
                         </td>
                         <td data-label="SMART">
                             <span class="sr-only">Включено</span>
-                            <span class="package-note">1 год</span>
+                            <span class="package-note" style="color: #E1CF95;">1 год</span>
                         </td>
-                        <td data-label="SELF"><span class="package-note">додатково</span></td>
+                        <td data-label="SELF"><span class="package-note" style="color: #E1CF95;">додатково</span></td>
                     </tr>
                 </tbody>
             </table>
