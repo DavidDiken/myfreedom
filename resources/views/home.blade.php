@@ -219,6 +219,60 @@
 </section>
 
 
+<section class="invest-plans">
+    <div class="container">
+        <div class="invest-plans__intro">
+            <h2>Invest SMART пакети</h2>
+            <p style="color: #fff">Три рівні супроводу, щоб ви могли інвестувати впевнено та масштабувати портфель швидше.</p>
+        </div>
+
+        <div class="invest-plans__grid">
+            <article class="invest-card invest-card--basic">
+                <div class="invest-card__head">
+                    <p class="eyebrow">SELF-STANDARD</p>
+                    <h3>BASE</h3>
+                    <span class="invest-card__tag">Базовий набір матеріалів</span>
+                    <p class="invest-card__price">$950</p>
+                </div>
+                <div class="invest-card__body">
+                    <p>Для тих, хто вже має досвід у ремонтах і хоче зробити все сам, але по системі. Ми надаємо стандарти та шаблони, щоб квартира була готова до здачі швидше та якісніше.</p>
+                    <a href="" class="link">→ Робите самі, але не наосліп</a>
+                    <a href="#consultation-form" class="btn btn-outline">Обрати Silver</a>
+                </div>
+            </article>
+
+            <article class="invest-card invest-card--gold">
+                <div class="invest-card__head">
+                    <p class="eyebrow">INVEST SMART</p>
+                    <h3>SMART</h3>
+                    <span class="invest-card__tag">Автоматизований курс із підтримкою</span>
+                    <p class="invest-card__price">$1500</p>
+                </div>
+                <div class="invest-card__body">
+                    <p>Для тих, хто хоче пройти шлях самостійно, але за перевіреною системою. Отримуєте чеклісти, інструкції, калькулятори, приклади та технічний аудит ключових етапів.</p>
+                    <a href="" class="link">→ Власний досвід — без зайвих помилок</a>
+                    <a href="#consultation-form" class="btn">Обрати Gold</a>
+                </div>
+            </article>
+
+            <article class="invest-card invest-card--premium">
+                <div class="invest-card__head">
+                    <p class="eyebrow">INVEST PRO</p>
+                    <h3>PRO</h3>
+                    <span class="invest-card__tag">Повний супровід “під ключ” із куратором</span>
+                    <p class="invest-card__price">3%</p>
+                </div>
+                <div class="invest-card__body">
+                    <p>Для тих, хто хоче максимально зекономити час: ми допомагаємо від підбору квартири / ремонту до заселення першого орендаря.</p>
+                    <a href="" class="link">→ Мінімум ризиків, максимум спокою</a>
+                    <a href="#consultation-form" class="btn" style="margin-top: 54px;">Обрати Platinum</a>
+                </div>
+            </article>
+        </div>
+    </div>
+</section>
+
+
     @include('form')
 @endsection
 
