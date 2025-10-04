@@ -167,6 +167,58 @@
   </div>
 </section>
 
+
+<section class="testimonials">
+    <div class="testimonials__intro">
+    <div class="testimonials__intro_left">
+        <img src="/images/testimonials_intro.png" alt="" style="max-width: 450px">
+    </div>
+    <div class="testimonials__intro_right">
+            <h2>Відгуки клієнтів</h2>
+            <p class="subtitle">Реальні результати інвесторів, що обрали стандарти MYFREEDOM</p>
+            <p>Ми супроводжуємо кожен об'єкт від концепції до заселення. Завдяки чітким регламентам і команді кураторів наші клієнти швидше виходять на окупність і піднімають середній чек оренди.</p>
+        </div>
+        </div>
+    <div class="container testimonials__content">
+
+        <div class="testimonials__cards">
+            <article class="testimonial-card">
+                <div class="testimonial-rating">
+                    <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                </div>
+                <blockquote>“Здав квартиру вже через 2 тижні після ремонту”</blockquote>
+                <p class="testimonial-text">"MYFREEDOM допомогли сформувати чітке ТЗ для майстрів та підібрати меблі. Після здачі об'єкта ми одразу отримали кілька заявок і заселили першого орендаря без простою."</p>
+                <div class="testimonial-author">
+                    <p class="name">Андрій, власник квартири у ЖК «Сирецькі Сади»</p>
+                </div>
+            </article>
+
+            <article class="testimonial-card">
+                <div class="testimonial-rating">
+                    <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                </div>
+                <blockquote>“Зекономив 25% бюджету завдяки стандартам”</blockquote>
+                <p class="testimonial-text">"Команда одразу вказала, де можна оптимізувати матеріали й техніку без втрати якості. У клієнтів захоплення від планування, а ми зберегли бюджет на ще один проєкт."</p>
+                <div class="testimonial-author">
+                    <p class="name">Марина, інвесторка з Києва</p>
+                </div>
+            </article>
+
+            <article class="testimonial-card">
+                <div class="testimonial-rating">
+                    <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                </div>
+                <blockquote>“Квартира виглядає краще за 90% на ринку”</blockquote>
+                <p class="testimonial-text">"Дизайнери MYFREEDOM створили концепт, що виділяється серед інших оголошень. Підбір декору та фото після здачі привели більше відгуків, ніж будь-які платні просування."</p>
+                <div class="testimonial-author">
+                    <p class="name">Олексій, власник апартаментів у Львові</p>
+                </div>
+            </article>
+        </div>
+    </div>
+</section>
+
+
     @include('form')
 @endsection
 
