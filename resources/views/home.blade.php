@@ -273,6 +273,124 @@
 </section>
 
 
+<section class="package-compare">
+    <div class="container">
+        <div class="package-compare__intro">
+            <h2>Порівняння пакетів</h2>
+            <p class="sub">Бачите, який обсяг підтримки отримаєте з кожним рівнем співпраці.</p>
+        </div>
+
+        <div class="package-table-wrapper card">
+            <table class="package-table">
+                <thead>
+                    <tr>
+                        <th>Послуга / Перевага</th>
+                        <th>INVEST PRO</th>
+                        <th>SMART</th>
+                        <th>SELF</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Стратегічна консультація</td>
+                        <td data-label="INVEST PRO">
+                            <span class="sr-only">Включено</span>
+                            <span class="package-note">від 3% від загальної суми інвестиції</span>
+                        </td>
+                        <td data-label="SMART"><span class="package-dash">—</span></td>
+                        <td data-label="SELF"><span class="package-dash">—</span></td>
+                    </tr>
+                    <tr>
+                        <td>Юридичний супровід</td>
+                        <td data-label="INVEST PRO">
+                            <span class="package-icon package-icon--check" aria-hidden="true">✓</span>
+                            <span class="sr-only">Включено</span>
+                        </td>
+                        <td data-label="SMART"><span class="package-dash">—</span></td>
+                        <td data-label="SELF"><span class="package-dash">—</span></td>
+                    </tr>
+                    <tr>
+                        <td>Технагляд</td>
+                        <td data-label="INVEST PRO">
+                            <span class="sr-only">Включено</span>
+                            <span class="package-note">4 виїзди</span>
+                        </td>
+                        <td data-label="SMART">
+                            <span class="sr-only">Включено</span>
+                            <span class="package-note">1 виїзд</span>
+                        </td>
+                        <td data-label="SELF"><span class="package-dash">—</span></td>
+                    </tr>
+                    <tr>
+                        <td>ТЗ та комплектація</td>
+                        <td data-label="INVEST PRO">
+                            <span class="sr-only">Включено</span>
+                            <span class="package-note">індивідуально</span>
+                        </td>
+                        <td data-label="SMART">
+                            <span class="sr-only">Включено</span>
+                            <span class="package-note">шаблони</span>
+                        </td>
+                        <td data-label="SELF">
+                            <span class="sr-only">Включено</span>
+                            <span class="package-note">інструкція</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Персональний куратор</td>
+                        <td data-label="INVEST PRO">
+                            <span class="package-icon package-icon--check" aria-hidden="true">✓</span>
+                            <span class="sr-only">Включено</span>
+                        </td>
+                        <td data-label="SMART"><span class="package-dash">—</span></td>
+                        <td data-label="SELF"><span class="package-dash">—</span></td>
+                    </tr>
+                    <tr>
+                        <td>Фінальний контроль якості</td>
+                        <td data-label="INVEST PRO">
+                            <span class="package-icon package-icon--check" aria-hidden="true">✓</span>
+                            <span class="sr-only">Включено</span>
+                        </td>
+                        <td data-label="SMART">
+                            <span class="package-icon package-icon--check" aria-hidden="true">✓</span>
+                            <span class="sr-only">Включено</span>
+                        </td>
+                        <td data-label="SELF"><span class="package-note">самостійно</span></td>
+                    </tr>
+                    <tr>
+                        <td>ROI-калькулятор і чек-листи</td>
+                        <td data-label="INVEST PRO">
+                            <span class="package-icon package-icon--check" aria-hidden="true">✓</span>
+                            <span class="sr-only">Включено</span>
+                        </td>
+                        <td data-label="SMART">
+                            <span class="package-icon package-icon--check" aria-hidden="true">✓</span>
+                            <span class="sr-only">Включено</span>
+                        </td>
+                        <td data-label="SELF">
+                            <span class="package-icon package-icon--check" aria-hidden="true">✓</span>
+                            <span class="sr-only">Включено</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Можливість консультації</td>
+                        <td data-label="INVEST PRO">
+                            <span class="sr-only">Включено</span>
+                            <span class="package-note">у пакеті</span>
+                        </td>
+                        <td data-label="SMART">
+                            <span class="sr-only">Включено</span>
+                            <span class="package-note">1 год</span>
+                        </td>
+                        <td data-label="SELF"><span class="package-note">додатково</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+
+
     @include('form')
 @endsection
 

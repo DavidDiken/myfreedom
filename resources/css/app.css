@@ -739,6 +739,157 @@ footer {
     color: #D99B36;
 }
 
+.package-compare {
+  padding: 80px 0;
+}
+
+.package-compare__intro {
+  text-align: center;
+  max-width: 640px;
+  margin: 0 auto 32px;
+}
+
+.package-compare__intro h2 {
+  color: #E1CF95;
+}
+
+.package-table-wrapper {
+  overflow-x: auto;
+  text-align: left;
+}
+
+.package-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 640px;
+}
+
+.package-table th,
+.package-table td {
+  padding: 18px 20px;
+  border-bottom: 1px solid rgba(25, 68, 60, 0.12);
+}
+
+.package-table thead th {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #19443C;
+}
+
+.package-table tbody td {
+  color: #19443C;
+  vertical-align: top;
+  font-size: 16px;
+  text-align: center;
+}
+
+.package-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.package-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 26px;
+  border-radius: 50px;
+  background: #E1CF95;
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.package-dash {
+  color: rgba(25, 68, 60, 0.6);
+  font-weight: 600;
+}
+
+.package-note {
+  display: block;
+  margin-top: 6px;
+  font-size: 14px;
+  color: #19443c;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+@media (max-width: 1024px) {
+  .package-table {
+    min-width: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .package-table thead {
+    display: none;
+  }
+
+  .package-table,
+  .package-table tbody,
+  .package-table tr,
+  .package-table td {
+    display: block;
+    width: 100%;
+  }
+
+  .package-table tr {
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(25, 68, 60, 0.12);
+  }
+
+  .package-table tr:last-child {
+    border-bottom: none;
+  }
+
+  .package-table td {
+    padding: 10px 0;
+    border: none;
+    font-size: 15px;
+  }
+
+  .package-table td:first-child {
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .package-table td[data-label]::before {
+    content: attr(data-label);
+    display: block;
+    font-size: 16px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: rgba(25, 68, 60, 0.7);
+    margin-bottom: 6px;
+  }
+
+  .package-table-wrapper {
+    padding: 24px 20px;
+  }
+}
+
+table tr td:first-child {
+    text-align: left;
+}
+
+table tr th:first-child {
+    text-align: left;
+}
+
 @media (max-width: 768px) {
   .invest-plans {
     padding: 60px 0;
