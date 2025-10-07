@@ -89,30 +89,30 @@
       <a href=""><button>Подивитись пакети курсу</button></a>
   </div>
 </section>
-<section>
-    <div class="statistic-block">
-        <h2 style="color: #ffffff">Цей курс - не теорія, а реальний досвід <span>MYFREEDOM</span></h2>
-        <div class="flex20" style="align-items: flex-start; justify-content: space-between; flex-wrap: nowrap;">
-        <div class="statistic-item card">
-            <h3>25000</h3>
-            <p>гостей заселено минулого року</p>
-        </div>
-        <div class="statistic-item card">
-            <h3>330+</h3>
-            <p>квартир під управлінням</p>
-        </div>
-        <div class="statistic-item card">
-            <h3>7 років</h3>
-            <p>досвіду на ринку</p>
-        </div>
-        <div class="statistic-item card">
-            <h3>найбільша</h3>
-            <p>управляюча компанія в Україні</p>
-        </div>
-        <div class="statistic-item card">
-            <h3>Ми знаємо</h3>
-            <p>як зробити квартиру прибутковою</p>
-        </div>
+<section class="stats-section">
+    <div class="container statistic-block">
+        <h2>Цей курс - не теорія, а реальний досвід <span>MYFREEDOM</span></h2>
+        <div class="stats-grid">
+            <div class="statistic-item card">
+                <h3>25000</h3>
+                <p>гостей заселено минулого року</p>
+            </div>
+            <div class="statistic-item card">
+                <h3>330+</h3>
+                <p>квартир під управлінням</p>
+            </div>
+            <div class="statistic-item card">
+                <h3>7 років</h3>
+                <p>досвіду на ринку</p>
+            </div>
+            <div class="statistic-item card">
+                <h3>найбільша</h3>
+                <p>управляюча компанія в Україні</p>
+            </div>
+            <div class="statistic-item card">
+                <h3>Ми знаємо</h3>
+                <p>як зробити квартиру прибутковою</p>
+            </div>
         </div>
     </div>
 </section>
