@@ -388,8 +388,16 @@
             </table>
         </div>
     </div>
-    <div style="width: 100%; text-align: center;"><a href="#consultation-form"><button>Дізнатись, як це працює</button></a></div>
+    <br>
+    <div style="width: 100%; text-align: center;">
+        <h2>Не експериментуйте з грошима</h2>
+        <p style="color: white">Зробіть ремонт за стандартами, які працюють вже в <span style="color: #E1CF95;">330+ квартирах</span></p>
+        <br>
+        <a href="#consultation-form"><button>Дізнатись, як це працює</button></a>
+    </div>
 </section>
+
+
 
 
     @include('form')
