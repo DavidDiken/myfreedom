@@ -388,6 +388,7 @@
             </table>
         </div>
     </div>
+    <div style="width: 100%; text-align: center;"><a href="#consultation-form"><button>Дізнатись, як це працює</button></a></div>
 </section>
 
 
