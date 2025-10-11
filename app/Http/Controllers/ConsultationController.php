@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
+use App\Mail\ConsultationRequestSubmitted;
 use App\Models\ConsultationRequest;
 
 class ConsultationController extends Controller
@@ -36,7 +38,7 @@ class ConsultationController extends Controller
         );
 
         // Сохранение
-        ConsultationRequest::create([
+        $consultationRequest = ConsultationRequest::create([
             'name' => $data['name'],
             'contact' => $data['contact'],
             'email' => $data['email'] ?? null,
@@ -44,6 +46,10 @@ class ConsultationController extends Controller
             'involvement' => $data['involvement'],
             'preferred' => $data['preferred'] ?? null,
         ]);
+
+        Mail::to('kaper1996@gmail.com')->send(
+            new ConsultationRequestSubmitted($consultationRequest)
+        );
 
         // Редирект на страницу благодарности
         return redirect()->route('thankyou');
