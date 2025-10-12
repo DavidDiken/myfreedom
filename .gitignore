@@ -22,3 +22,7 @@
 Homestead.json
 Homestead.yaml
 Thumbs.db
+.vite/deps/_metadata.json
+.vite/deps/axios.js
+.vite/deps/axios.js.map
+.vite/deps/package.json
