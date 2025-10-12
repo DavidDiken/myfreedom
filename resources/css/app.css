@@ -86,7 +86,7 @@ body {
 
 h1 { color: #fff; font-size: clamp(28px, 5vw, 44px); font-weight:800; margin:0 0 12px; line-height: normal; }
 h2 { color: #E1CF95; font-size: clamp(22px, 4vw, 32px); }
-h3 { color: #37625A; font-size: clamp(18px, 3vw, 22px); font-weight: medium;}
+h3 { color: #ffffff; font-size: clamp(18px, 3vw, 22px); font-weight: medium;}
 h4 { color: #525252; font-size: clamp(16px, 2vw, 18px); }
 
 .sub { color:#ffffff82; font-size: 16px; }
@@ -1579,6 +1579,294 @@ table tr th:first-child {
 .ba-caption {
   font-size: 16px;
   color: #ffffff;
+}
+
+/* ====== Tariff Page ====== */
+.tariff-hero {
+  margin: 48px 0 64px;
+}
+
+.tariff-hero__inner {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  position: relative;
+  overflow: hidden;
+}
+
+.tariff-hero__tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 20px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.1);
+  color: #E1CF95;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.tariff-hero__heading h1 {
+  margin-bottom: 12px;
+}
+
+.tariff-hero__subtitle {
+  color: rgba(255, 255, 255, 0.82);
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.tariff-hero__grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 28px;
+}
+
+.tariff-hero__column {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.tariff-hero__price {
+  font-size: clamp(28px, 4vw, 40px);
+  font-weight: 800;
+  color: #E1CF95;
+  margin: 0;
+}
+
+.tariff-hero__badge {
+  color: rgba(255, 255, 255, 0.68);
+  font-size: 15px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.tariff-hero__summary {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.tariff-hero__summary li {
+  position: relative;
+  padding-left: 26px;
+  color: rgba(255, 255, 255, 0.88);
+}
+
+.tariff-hero__summary li::before {
+  content: '\2713';
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #E1CF95;
+}
+
+.tariff-hero__accent {
+  font-size: 16px;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.tariff-hero__cta {
+  width: fit-content;
+}
+
+.tariff-switcher {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.tariff-switcher__item {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 14px 20px;
+  border-radius: 16px;
+  background: rgba(25, 68, 60, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  color: rgba(255, 255, 255, 0.74);
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.tariff-switcher__item:hover {
+  border-color: rgba(225, 207, 149, 0.9);
+  color: #fff;
+}
+
+.tariff-switcher__item.is-active {
+  background: #E1CF95;
+  color: #19443C;
+  border-color: transparent;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+}
+
+.tariff-switcher__label {
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.tariff-switcher__price {
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.tariff-stage {
+  margin-bottom: 72px;
+}
+
+.tariff-stage__header {
+  margin-bottom: 32px;
+}
+
+.tariff-stage__eyebrow {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #E1CF95;
+  margin-bottom: 12px;
+}
+
+.tariff-stage h2 {
+  color: #ffffff;
+  max-width: 780px;
+  line-height: 1.4;
+}
+
+.tariff-stage__lessons {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 20px;
+}
+
+.lesson-card {
+  border-radius: 28px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.lesson-card--active {
+  background: rgba(255, 255, 255, 0.15);
+  border-color: rgba(225, 207, 149, 0.5);
+  box-shadow: 0 14px 36px rgba(0, 0, 0, 0.25);
+}
+
+.lesson-card--muted {
+  opacity: 0.78;
+}
+
+.lesson-card__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+  flex-direction: column-reverse;
+}
+
+.lesson-card__status {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 13px;
+  letter-spacing: 0.02em;
+}
+
+.lesson-card__status--included {
+  background: rgba(63, 190, 106, 0.18);
+  color: #3FBE6A;
+}
+
+.lesson-card__status--missed {
+  background: rgba(239, 68, 68, 0.15);
+  color: #ef4444;
+}
+
+.lesson-card__icon {
+  font-weight: 700;
+}
+
+.lesson-card__body {
+  display: grid;
+  gap: 18px;
+}
+
+.lesson-card__block ul {
+  margin: 8px 0 0;
+  padding-left: 18px;
+  color: rgba(255, 255, 255, 0.82);
+  list-style: circle;
+}
+
+.lesson-card__block li {
+  margin-bottom: 6px;
+}
+
+.lesson-card__block p:not(.lesson-card__label) {
+  color: white;
+}
+
+.lesson-card__label {
+  font-size: 13px;
+  color: #E1CF95;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
+
+.lesson-card__footer {
+  margin-top: auto;
+  padding-top: 12px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.lesson-card__available {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.08);
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 13px;
+  letter-spacing: 0.02em;
+}
+
+@media (max-width: 1024px) {
+  .tariff-hero__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .tariff-stage__lessons {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  }
+}
+
+@media (max-width: 600px) {
+  .tariff-hero__inner {
+    padding: 24px;
+  }
+
+  .tariff-switcher {
+    flex-direction: column;
+  }
+
+  .lesson-card__header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }
 
 @media (max-width: 768px) {

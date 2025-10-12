@@ -22,15 +22,27 @@
     <!-- бургер для мобилы -->
     <div class="burger" id="burger">&#9776;</div>
 
+    @php
+        $navTariffs = [
+            'basic' => 'Basic',
+            'standard' => 'Standard',
+            'premium' => 'Premium',
+        ];
+        $activeTariff = request()->routeIs('tariffs.show') ? request()->route('tariff') : null;
+    @endphp
+
     <div class="nav-center" id="nav-menu">
-        <a href="{{ route('home') }}" class="{{ request()->routeIs('home') ? 'active' : '' }}">Home</a>
-        <a href="{{ route('tariff.basic') }}" class="{{ request()->routeIs('tariff.basic') ? 'active' : '' }}">Tariff Basic</a>
-        <a href="{{ route('tariff.standard') }}" class="{{ request()->routeIs('tariff.standard') ? 'active' : '' }}">Tariff Standard</a>
-        <a href="{{ route('tariff.premium') }}" class="{{ request()->routeIs('tariff.premium') ? 'active' : '' }}">Tariff Premium</a>
+        <a href="{{ route('home') }}" class="{{ request()->routeIs('home') ? 'active' : '' }}">Головна</a>
+        @foreach($navTariffs as $slug => $label)
+            <a href="{{ route('tariffs.show', ['tariff' => $slug]) }}"
+               class="{{ ($activeTariff === $slug) ? 'active' : '' }}">
+                {{ $label }}
+            </a>
+        @endforeach
     </div>
 
     <div class="nav-right">
-        <a><span class="btn">Get Consultation</span></a>
+        <a href="#consultation-form"><button>Замовити консультацію</button></a>
     </div>
 </nav>
 
