@@ -20,6 +20,7 @@
             @csrf
 
             <div class="consultation__grid">
+                <div class="cust_date">
                 <div class="form-field">
                     <label for="name">Ім'я*</label>
                     <input id="name" type="text" name="name" value="{{ old('name') }}" required class="form-input">
@@ -33,6 +34,7 @@
                 <div class="form-field">
                     <label for="email">E-mail (необов'язково)</label>
                     <input id="email" type="email" name="email" value="{{ old('email') }}" class="form-input">
+                </div>
                 </div>
 
                 <fieldset class="form-fieldset">
