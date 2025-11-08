@@ -941,11 +941,11 @@ footer {
   background: linear-gradient(145deg, #FFE7A8, #D99B36 80%);
 }
 
-.invest-card--premium .invest-card__head {
+.invest-card--Premium .invest-card__head {
   background: linear-gradient(145deg, #F3E9FF, #8260FF 82%);
 }
 
-.invest-card--premium .invest-card__price {
+.invest-card--Premium .invest-card__price {
   color: #e1cf95;
 }
 

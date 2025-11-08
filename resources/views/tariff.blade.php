@@ -88,7 +88,7 @@
 
                     @unless($isIncluded)
                         <footer class="lesson-card__footer">
-                            <span class="lesson-card__available">Доступно у: {{ $availableLabel }}</span>
+                            <span class="lesson-card__available">Доступно: {{ $availableLabel }}</span>
                         </footer>
                     @endunless
                 </article>

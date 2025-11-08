@@ -24,9 +24,9 @@
 
     @php
         $navTariffs = [
-            'basic' => 'Basic',
-            'standard' => 'Standard',
-            'premium' => 'Premium',
+            'Standart' => 'Standart',
+            'Smart' => 'Smart',
+            'Premium' => 'Premium',
         ];
         $activeTariff = request()->routeIs('tariffs.show') ? request()->route('tariff') : null;
     @endphp

@@ -31,15 +31,15 @@ class PageController extends Controller
     private function tariffs(): array
     {
         return [
-            'basic' => [
-                'slug' => 'basic',
-                'name' => 'Basic',
-                'label' => 'BASIC',
-                'title' => 'Тариф BASIC',
+            'Standart' => [
+                'slug' => 'Standart',
+                'name' => 'Standart',
+                'label' => 'Standart',
+                'title' => 'Тариф Standart',
                 'hero_tag' => '#РемонтПідОренду',
-                'hero_heading' => 'Тариф BASIC — старт для впевненого ремонту під оренду',
+                'hero_heading' => 'Тариф Standart — старт для впевненого ремонту під оренду',
                 'hero_subheading' => 'Все необхідне, щоб структурувати ремонт і не втратити бюджет: гіди, матриці та шаблони з досвіду MYFREEDOM.',
-                'price' => '$950',
+                'price' => '$800',
                 'cta_label' => 'Отримати доступ',
                 'cta_target' => '#consultation-form',
                 'summary' => [
@@ -50,16 +50,16 @@ class PageController extends Controller
                 'badge' => 'Рекомендовано інвесторам, які роблять ремонт вперше',
                 'accent' => 'Ви отримуєте фокус на стратегічних рішеннях та економію бюджету.',
             ],
-            'standard' => [
-                'slug' => 'standard',
-                'name' => 'Standard',
-                'label' => 'STANDARD',
-                'title' => 'Тариф STANDARD',
+            'Smart' => [
+                'slug' => 'Smart',
+                'name' => 'Smart',
+                'label' => 'Smart',
+                'title' => 'Тариф Smart',
                 'hero_tag' => '#РемонтПідОренду',
-                'hero_heading' => 'Тариф STANDARD — повний пакет матеріалів і сценаріїв',
+                'hero_heading' => 'Тариф Smart — повний пакет матеріалів і сценаріїв',
                 'hero_subheading' => 'Розширені шаблони, приклади сценаріїв і додаткові інструменти для контролю кожного етапу.',
                 'price' => '$1500',
-                'cta_label' => 'Почати з STANDARD',
+                'cta_label' => 'Почати з Smart',
                 'cta_target' => '#consultation-form',
                 'summary' => [
                     'Повні версії чек-листів, відео та прикладів',
@@ -69,16 +69,16 @@ class PageController extends Controller
                 'badge' => 'Оптимальний баланс інструментів та самостійності',
                 'accent' => 'Ви тримаєте процес під контролем і знаєте, що вимагати від підрядників.',
             ],
-            'premium' => [
-                'slug' => 'premium',
+            'Premium' => [
+                'slug' => 'Premium',
                 'name' => 'Premium',
-                'label' => 'PREMIUM',
-                'title' => 'Тариф PREMIUM',
+                'label' => 'Premium',
+                'title' => 'Тариф Premium',
                 'hero_tag' => '#РемонтПідОренду',
-                'hero_heading' => 'Тариф PREMIUM — найповніший пакет з персональними рекомендаціями',
+                'hero_heading' => 'Тариф Premium — найповніший пакет з персональними рекомендаціями',
                 'hero_subheading' => 'Детальні гіди, калькулятори, приклади договорів і персональні консультації команди MYFREEDOM.',
                 'price' => '3%',
-                'cta_label' => 'Забронювати PREMIUM',
+                'cta_label' => 'Забронювати Premium',
                 'cta_target' => '#consultation-form',
                 'summary' => [
                     'Персоналізовані рекомендації по комплектації та бюджетах',
@@ -115,7 +115,7 @@ class PageController extends Controller
                             'Базове технічне завдання (ТЗ) для дизайнера та прораба.',
                             'Захист від типових помилок і перерв.',
                         ],
-                        'available_in' => ['basic', 'standard', 'premium'],
+                        'available_in' => ['Standart', 'Smart', 'Premium'],
                     ],
                     [
                         'name' => 'Модуль 1. Визначення цілей квартири',
@@ -130,7 +130,7 @@ class PageController extends Controller
                             'Маєте основу для всіх наступних рішень.',
                             'Уникаєте хаотичного вибору рішень по ходу робіт.',
                         ],
-                        'available_in' => ['basic', 'standard', 'premium'],
+                        'available_in' => ['Standart', 'Smart', 'Premium'],
                     ],
                     [
                         'name' => 'Модуль 2. Аналіз локації',
@@ -144,8 +144,8 @@ class PageController extends Controller
                             'Розумієте сильні та слабкі сторони локації.',
                             'Можете обрати правильний формат ремонту під конкретне місце.',
                         ],
-                        'available_in' => ['basic', 'standard', 'premium'],
-                        'available_label' => 'STANDARD / PREMIUM',
+                        'available_in' => ['Standart', 'Smart', 'Premium'],
+                        'available_label' => 'Smart / Premium',
                     ],
                     [
                         'name' => 'Модуль 3. Аналіз планування квартири',
@@ -159,8 +159,8 @@ class PageController extends Controller
                             'Розумієте, чи потрібно змінювати планування.',
                             'Знаєте, як планування вплине на ціну, швидкість здачі чи комфорт.',
                         ],
-                        'available_in' => ['basic', 'standard', 'premium'],
-                        'available_label' => 'STANDARD / PREMIUM',
+                        'available_in' => ['Standart', 'Smart', 'Premium'],
+                        'available_label' => 'Smart / Premium',
                     ],
                     [
                         'name' => 'Модуль 4. Вибір типу ремонту та комплектації',
@@ -174,8 +174,8 @@ class PageController extends Controller
                             'Маєте чіткий набір характеристик майбутнього ремонту.',
                             'Знаєте, що купувати, а від чого відмовитися.',
                         ],
-                        'available_in' => ['basic', 'standard', 'premium'],
-                        'available_label' => 'PREMIUM',
+                        'available_in' => ['Standart', 'Smart', 'Premium'],
+                        'available_label' => 'Premium',
                     ],
                     [
                         'name' => 'Модуль 5. Формування реалістичного бюджету',
@@ -189,8 +189,8 @@ class PageController extends Controller
                             'Маєте реальний бюджет без “сюрпризів” у процесі.',
                             'Знаєте, де можна зекономити без втрати якості.',
                         ],
-                        'available_in' => ['standard', 'premium'],
-                        'available_label' => 'STANDARD / PREMIUM',
+                        'available_in' => ['Smart', 'Premium'],
+                        'available_label' => 'Smart / Premium',
                     ],
                     [
                         'name' => 'Модуль 6. Створення технічного завдання (ТЗ)',
@@ -204,8 +204,8 @@ class PageController extends Controller
                             'Маєте готовий документ, з яким можна йти до дизайнера або прораба.',
                             'Зберігаєте контроль над процесом і кінцевим результатом.',
                         ],
-                        'available_in' => ['premium'],
-                        'available_label' => 'PREMIUM',
+                        'available_in' => ['Premium'],
+                        'available_label' => 'Premium',
                     ],
                 ],
             ],
@@ -228,7 +228,7 @@ class PageController extends Controller
                             'Маєте інструкції та інструмент контролю виконання робіт',
                             'Готові передати проект у реалізацію без додаткових питань.',
                         ],
-                        'available_in' => ['basic', 'standard', 'premium'],
+                        'available_in' => ['Standart', 'Smart', 'Premium'],
                     ],
                     [
                         'name' => 'Модуль 1. Вибір дизайнера та формування ТЗ',
@@ -242,7 +242,7 @@ class PageController extends Controller
                             'Маєте перевірений алгоритм вибору дизайнера',
                             'Готове ТЗ на розробку технічної документації',
                         ],
-                        'available_in' => ['basic', 'standard', 'premium'],
+                        'available_in' => ['Standart', 'Smart', 'Premium'],
                     ],
                     [
                         'name' => 'Модуль 2. Пакет креслень і документації',
@@ -254,7 +254,7 @@ class PageController extends Controller
                         'results' => [
                             'Розуміння, який пакет потрібен саме вам і список документів, які ви повинні отримати',
                         ],
-                        'available_in' => ['basic', 'standard', 'premium'],
+                        'available_in' => ['Standart', 'Smart', 'Premium'],
                     ],
                     [
                         'name' => 'Модуль 3. Стиль та кольорова концепція',
@@ -268,7 +268,7 @@ class PageController extends Controller
                             'Маєте затверджену стилістичну концепцію;',
                             'Розумієте вплив на ліквідність.',
                         ],
-                        'available_in' => ['basic', 'standard', 'premium'],
+                        'available_in' => ['Standart', 'Smart', 'Premium'],
                     ],
                     [
                         'name' => 'Модуль 4. Функціональне планування',
@@ -282,7 +282,7 @@ class PageController extends Controller
                             'Маєте фінальне планування без помилок; ',
                             'Уникаєте перевитрат.',
                         ],
-                        'available_in' => ['basic', 'standard', 'premium'],
+                        'available_in' => ['Standart', 'Smart', 'Premium'],
                     ],
                     [
                         'name' => 'Модуль 5. Авторський нагляд і листи комплектації',
@@ -296,8 +296,8 @@ class PageController extends Controller
                             'Розумієте, які послуги варті інвестицій;',
                             'Маєте повну комплектацію.',
                         ],
-                        'available_in' => ['standard', 'premium'],
-                        'available_label' => 'STANDARD / PREMIUM',
+                        'available_in' => ['Smart', 'Premium'],
+                        'available_label' => 'Smart / Premium',
                     ],
                     [
                         'name' => 'Модуль 6. Фінальна перевірка пакету документів',
@@ -310,8 +310,8 @@ class PageController extends Controller
                         'results' => [
                             'Готовий перевірений пакет документів для старту блоку Реалізація',
                         ],
-                        'available_in' => ['standard', 'premium'],
-                        'available_label' => 'STANDARD / PREMIUM',
+                        'available_in' => ['Smart', 'Premium'],
+                        'available_label' => 'Smart / Premium',
                     ],
                 ],
             ],
@@ -336,7 +336,7 @@ class PageController extends Controller
                             'Зони відповідальності',
                             'Інструменти для ефективного управління процесом до моменту повної готовності об’єкта',
                         ],
-                        'available_in' => ['basic', 'standard', 'premium'],
+                        'available_in' => ['Standart', 'Smart', 'Premium'],
                     ],
                     [
                         'name' => 'Модуль 11. Приймання робіт і фінальна перевірка',
@@ -349,7 +349,7 @@ class PageController extends Controller
                             'Маєте покроковий чек-лист приймання',
                             'Готові до запуску маркетингової кампанії',
                         ],
-                        'available_in' => ['basic', 'standard', 'premium'],
+                        'available_in' => ['Standart', 'Smart', 'Premium'],
                     ],
                     [
                         'name' => 'Модуль 1. Підготовка до старту реалізації',
@@ -362,7 +362,7 @@ class PageController extends Controller
                         'results' => [
                             'Чіткий чек-лист готовності до старту реалізації.',
                         ],
-                        'available_in' => ['basic', 'standard', 'premium'],
+                        'available_in' => ['Standart', 'Smart', 'Premium'],
                     ],
                     [
                         'name' => 'Модуль 2. Вибір моделі реалізації',
@@ -375,7 +375,7 @@ class PageController extends Controller
                         'results' => [
                             'Модель реалізації підходить саме вам.',
                         ],
-                        'available_in' => ['basic', 'standard', 'premium'],
+                        'available_in' => ['Standart', 'Smart', 'Premium'],
                     ],
                     [
                         'name' => 'Модуль 3. Бюджети та домовленості',
@@ -389,7 +389,7 @@ class PageController extends Controller
                             'Маєте затверджений бюджет і договори,',
                             'Готові до старту.',
                         ],
-                        'available_in' => ['basic', 'standard', 'premium'],
+                        'available_in' => ['Standart', 'Smart', 'Premium'],
                     ],
                     [
                         'name' => 'Модуль 4. Запуск проєкту',
@@ -401,7 +401,7 @@ class PageController extends Controller
                         'results' => [
                             'Отримаєте готовий план запуску проєкту.',
                         ],
-                        'available_in' => ['basic', 'standard', 'premium'],
+                        'available_in' => ['Standart', 'Smart', 'Premium'],
                     ],
                     [
                         'name' => 'Модуль 5. Технічний нагляд',
@@ -416,7 +416,7 @@ class PageController extends Controller
                             'Маєте матрицю контрольних точок',
                             'розумієте, що перевіряти на кожному етапі.',
                         ],
-                        'available_in' => ['basic', 'standard', 'premium'],
+                        'available_in' => ['Standart', 'Smart', 'Premium'],
                     ],
                     [
                         'name' => 'Модуль 6. Авторський нагляд',
@@ -427,7 +427,7 @@ class PageController extends Controller
                         'results' => [
                             'Отримуєте регламент авторського нагляду і чек-лист погоджень.',
                         ],
-                        'available_in' => ['basic', 'standard', 'premium'],
+                        'available_in' => ['Standart', 'Smart', 'Premium'],
                     ],
                     [
                         'name' => 'Модуль 7. Контроль витрат',
@@ -438,7 +438,7 @@ class PageController extends Controller
                         'results' => [
                             'Маєте робочий файл бюджету і рутину контролю витрат.',
                         ],
-                        'available_in' => ['basic', 'standard', 'premium'],
+                        'available_in' => ['Standart', 'Smart', 'Premium'],
                     ],
                     [
                         'name' => 'Модуль 8. Послідовність робіт і приймання',
@@ -449,7 +449,7 @@ class PageController extends Controller
                         'results' => [
                             'Маєте покроковий чек приймання.',
                         ],
-                        'available_in' => ['basic', 'standard', 'premium'],
+                        'available_in' => ['Standart', 'Smart', 'Premium'],
                     ],
                     [
                         'name' => 'Модуль 9. Закупівлі та наповнення',
@@ -462,7 +462,7 @@ class PageController extends Controller
                         'results' => [
                             'Отримаєте план закупівель з термінами та рекомендаціями.',
                         ],
-                        'available_in' => ['basic', 'standard', 'premium'],
+                        'available_in' => ['Standart', 'Smart', 'Premium'],
                     ],
                     [
                         'name' => 'Модуль 10. Фінальне оформлення та хоум-стейджинг',
@@ -474,7 +474,7 @@ class PageController extends Controller
                         'results' => [
                             'Отримуєте сценарій хоумстейджингу під свою ціль.',
                         ],
-                        'available_in' => ['basic', 'standard', 'premium'],
+                        'available_in' => ['Standart', 'Smart', 'Premium'],
                     ],
                 ],
             ],

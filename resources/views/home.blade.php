@@ -106,7 +106,7 @@
                 <p>досвіду на ринку</p>
             </div>
             <div class="statistic-item card">
-                <h3>найбільша</h3>
+                <h3>Найбільша</h3>
                 <p>управляюча компанія в Україні</p>
             </div>
             <div class="statistic-item card">
@@ -222,28 +222,28 @@
 <section class="invest-plans">
     <div class="container">
         <div class="invest-plans__intro">
-            <h2>Invest SMART пакети</h2>
-            <p style="color: #fff">Три рівні супроводу, щоб ви могли інвестувати впевнено та масштабувати портфель швидше.</p>
+            <h2>Пакети участі</h2>
+            <p style="color: #fff">Три пакети участі, в залежності від вашого запиту</p>
         </div>
 
         <div class="invest-plans__grid">
             <article class="invest-card invest-card--basic">
                 <div class="invest-card__head">
-                    <p class="eyebrow">SELF-STANDARD</p>
-                    <h3>BASE</h3>
+                    <p class="eyebrow">STANDART</p>
+                    <h3>STANDART</h3>
                     <span class="invest-card__tag">Базовий набір матеріалів</span>
-                    <p class="invest-card__price">$950</p>
+                    <p class="invest-card__price">$800</p>
                 </div>
                 <div class="invest-card__body">
                     <p>Для тих, хто вже має досвід у ремонтах і хоче зробити все сам, але по системі. Ми надаємо стандарти та шаблони, щоб квартира була готова до здачі швидше та якісніше.</p>
                     <a href="" class="link">→ Робите самі, але не наосліп</a>
-                    <a href="#consultation-form" class="btn btn-outline">Обрати Silver</a>
+                    <a href="#consultation-form" class="btn btn-outline">Обрати STANDART</a>
                 </div>
             </article>
 
             <article class="invest-card invest-card--gold">
                 <div class="invest-card__head">
-                    <p class="eyebrow">INVEST SMART</p>
+                    <p class="eyebrow">INVEST Smart</p>
                     <h3>SMART</h3>
                     <span class="invest-card__tag">Автоматизований курс із підтримкою</span>
                     <p class="invest-card__price">$1500</p>
@@ -251,21 +251,21 @@
                 <div class="invest-card__body">
                     <p>Для тих, хто хоче пройти шлях самостійно, але за перевіреною системою. Отримуєте чеклісти, інструкції, калькулятори, приклади та технічний аудит ключових етапів.</p>
                     <a href="" class="link">→ Власний досвід — без зайвих помилок</a>
-                    <a href="#consultation-form" class="btn">Обрати Gold</a>
+                    <a href="#consultation-form" class="btn">Обрати SMART</a>
                 </div>
             </article>
 
-            <article class="invest-card invest-card--premium">
+            <article class="invest-card invest-card--Premium">
                 <div class="invest-card__head">
-                    <p class="eyebrow">INVEST PRO</p>
-                    <h3>PRO</h3>
+                    <p class="eyebrow">PREMIUM</p>
+                    <h3>PREMIUM</h3>
                     <span class="invest-card__tag">Повний супровід “під ключ” із куратором</span>
                     <p class="invest-card__price">3%</p>
                 </div>
                 <div class="invest-card__body">
                     <p>Для тих, хто хоче максимально зекономити час: ми допомагаємо від підбору квартири / ремонту до заселення першого орендаря.</p>
                     <a href="" class="link">→ Мінімум ризиків, максимум спокою</a>
-                    <a href="#consultation-form" class="btn" style="margin-top: 54px;">Обрати Platinum</a>
+                    <a href="#consultation-form" class="btn" style="margin-top: 54px;">Обрати PREMIUM</a>
                 </div>
             </article>
         </div>
@@ -284,16 +284,16 @@
             <table class="package-table">
                 <thead>
                     <tr>
-                        <th>Послуга / Перевага</th>
-                        <th>INVEST PRO</th>
+                        <th style="color: transparent">Послуга / Перевага</th>
+                        <th>PREMIUM</th>
                         <th>SMART</th>
-                        <th>SELF</th>
+                        <th>STANDART</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <td>Стратегічна консультація</td>
-                        <td data-label="INVEST PRO">
+                        <td data-label="INVEST PREMIUM">
                             <span class="sr-only">Включено</span>
                             <span class="package-note" style="color: #E1CF95;">від 3% від загальної суми інвестиції</span>
                         </td>
@@ -302,7 +302,7 @@
                     </tr>
                     <tr>
                         <td>Юридичний супровід</td>
-                        <td data-label="INVEST PRO">
+                        <td data-label="INVEST PREMIUM">
                             <span class="package-icon package-icon--check" aria-hidden="true">✓</span>
                             <span class="sr-only">Включено</span>
                         </td>
@@ -311,7 +311,7 @@
                     </tr>
                     <tr>
                         <td>Технагляд</td>
-                        <td data-label="INVEST PRO">
+                        <td data-label="INVEST PREMIUM">
                             <span class="sr-only">Включено</span>
                             <span class="package-note" style="color: #E1CF95;">4 виїзди</span>
                         </td>
@@ -319,11 +319,14 @@
                             <span class="sr-only">Включено</span>
                             <span class="package-note" style="color: #E1CF95;">1 виїзд</span>
                         </td>
-                        <td data-label="SELF"><span class="package-dash">—</span></td>
+                        <td data-label="SELF">
+                            <span class="sr-only">Включено</span>
+                            <span class="package-note" style="color: #E1CF95;">Додатково</span>
+                        </td>
                     </tr>
                     <tr>
                         <td>ТЗ та комплектація</td>
-                        <td data-label="INVEST PRO">
+                        <td data-label="INVEST PREMIUM">
                             <span class="sr-only">Включено</span>
                             <span class="package-note" style="color: #E1CF95;">індивідуально</span>
                         </td>
@@ -338,7 +341,7 @@
                     </tr>
                     <tr>
                         <td>Персональний куратор</td>
-                        <td data-label="INVEST PRO">
+                        <td data-label="INVEST PREMIUM">
                             <span class="package-icon package-icon--check" aria-hidden="true">✓</span>
                             <span class="sr-only">Включено</span>
                         </td>
@@ -347,7 +350,7 @@
                     </tr>
                     <tr>
                         <td>Фінальний контроль якості</td>
-                        <td data-label="INVEST PRO">
+                        <td data-label="INVEST PREMIUM">
                             <span class="package-icon package-icon--check" aria-hidden="true">✓</span>
                             <span class="sr-only">Включено</span>
                         </td>
@@ -359,7 +362,7 @@
                     </tr>
                     <tr>
                         <td>ROI-калькулятор і чек-листи</td>
-                        <td data-label="INVEST PRO">
+                        <td data-label="INVEST PREMIUM">
                             <span class="package-icon package-icon--check" aria-hidden="true">✓</span>
                             <span class="sr-only">Включено</span>
                         </td>
@@ -374,7 +377,7 @@
                     </tr>
                     <tr>
                         <td>Можливість консультації</td>
-                        <td data-label="INVEST PRO">
+                        <td data-label="INVEST PREMIUM">
                             <span class="sr-only">Включено</span>
                             <span class="package-note" style="color: #E1CF95;">у пакеті</span>
                         </td>
@@ -423,7 +426,7 @@
                 <p>👉 Звісно. Наш курс підходить як тим, хто тільки планує покупку, так і власникам готової квартири. Якщо житло вже є, ви отримаєте алгоритм ремонту, облаштування та підготовки до здачі з мінімумом ризиків і зайвих витрат.</p>
                 <ul class="faq-sublist">
                     <li><strong>SMART</strong> — якщо хочете керувати процесом самостійно, але за чіткими стандартами.</li>
-                    <li><strong>PRO</strong> — якщо хочете передати нам усе: від аналізу стану квартири до здачі в оренду.</li>
+                    <li><strong>PREMIUM</strong> — якщо хочете передати нам усе: від аналізу стану квартири до здачі в оренду.</li>
                 </ul>
             </article>
 
@@ -446,7 +449,7 @@
                     <span class="faq-item__icon" aria-hidden="true">❓</span>
                     <h3>А якщо захочу змінити пакет?</h3>
                 </header>
-                <p>👉 Так, перехід між пакетами можливий. Якщо ви почали, наприклад, зі SMART, але вирішили придбати більше функцій — можна перейти на PRO, просто сплативши різницю. І навпаки — теж можливо.</p>
+                <p>👉 Так, перехід між пакетами можливий. Якщо ви почали, наприклад, зі SMART, але вирішили придбати більше функцій — можна перейти на PREMIUM, просто сплативши різницю. І навпаки — теж можливо.</p>
                 <p>Гнучкість — одна з наших переваг.</p>
             </article>
 
@@ -463,7 +466,7 @@
                     <span class="faq-item__icon" aria-hidden="true">❓</span>
                     <h3>Хто займається пошуком орендарів?</h3>
                 </header>
-                <p>👉 Наша компанія має досвід у здачі 330+ квартир і роботи з понад 25&nbsp;000 гостей. У пакеті PRO ми допомагаємо з пошуком і управлінням орендарями. У пакетах SMART та BASE ви отримаєте інструкції та стандарти, які допоможуть вам самостійно залучати перевірених орендарів.</p>
+                <p>👉 Наша компанія має досвід у здачі 330+ квартир і роботи з понад 25&nbsp;000 гостей. У пакеті PREMIUM ми допомагаємо з пошуком і управлінням орендарями. У пакетах SMART та STANDART ви отримаєте інструкції та стандарти, які допоможуть вам самостійно залучати перевірених орендарів.</p>
             </article>
         </div>
     </div>
