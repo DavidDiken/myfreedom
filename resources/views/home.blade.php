@@ -120,49 +120,64 @@
 
 <section class="multi-before-after">
   <div class="container">
-    <h2><span>Приклади робіт</span></h2>
-    <p class="description">Кожен приклад — реальна квартира, яку ми підготували до оренди</p>
+    <h2><span>Готові інтер'єри</span></h2>
+    <p class="description">Три реальні кейси, де MYFREEDOM підготував квартири до прибуткової оренди</p>
 
-    <div class="before-after-grid">
+    <div class="project-slider-grid">
 
-      <!-- Элемент 1 -->
-      <div class="ba-item">
-        <div class="ba-wrapper">
-            
-          <img src="/images/before1.png" class="ba-img before">
-          <div class="ba-overlay">
-            <img src="/images/after1.png" class="ba-img after">
-          </div>
-          <input type="range" min="0" max="100" value="50" class="ba-slider">
+      <article class="project-slider" data-slider>
+        <div class="project-slider__viewport">
+          <img src="/images/after1.png" alt="Інтер'єр у ЖК «Паркові Озера» — нова кухня" class="project-slider__image is-active" data-slide>
+          <img src="/images/before1.png" alt="Інтер'єр у ЖК «Паркові Озера» — загальний вигляд" class="project-slider__image" data-slide>
+          <img src="/images/after2.png" alt="Інтер'єр у ЖК «Паркові Озера» — зона вітальні" class="project-slider__image" data-slide>
+          <img src="/images/before2.png" alt="Інтер'єр у ЖК «Паркові Озера» — санвузол" class="project-slider__image" data-slide>
+          <button type="button" class="project-slider__control project-slider__control--prev" data-slider-prev aria-label="Попереднє фото">‹</button>
+          <button type="button" class="project-slider__control project-slider__control--next" data-slider-next aria-label="Наступне фото">›</button>
         </div>
-        <p class="ba-caption">Кухня в ЖК “Комфорт+”</p>
-      </div>
-
-      <!-- Элемент 2 -->
-      <div class="ba-item">
-        <div class="ba-wrapper">
-          <img src="/images/before2.png" class="ba-img before">
-          <div class="ba-overlay">
-            <img src="/images/after2.png" class="ba-img after">
-          </div>
-          <input type="range" min="0" max="100" value="50" class="ba-slider">
+        <div class="project-slider__dots">
+          <button type="button" class="project-slider__dot is-active" data-slider-dot aria-label="Фото 1"></button>
+          <button type="button" class="project-slider__dot" data-slider-dot aria-label="Фото 2"></button>
+          <button type="button" class="project-slider__dot" data-slider-dot aria-label="Фото 3"></button>
+          <button type="button" class="project-slider__dot" data-slider-dot aria-label="Фото 4"></button>
         </div>
-        <p class="ba-caption">Санвузол у ЖК “Софія”</p>
-      </div>
+        <p class="project-slider__caption">ЖК «Паркові Озера»</p>
+      </article>
 
-      <!-- Элемент 3 -->
-      <div class="ba-item">
-        <div class="ba-wrapper">
-          <img src="/images/before3.png" class="ba-img before">
-          <div class="ba-overlay">
-            <img src="/images/after3.png" class="ba-img after">
-          </div>
-          <input type="range" min="0" max="100" value="50" class="ba-slider">
+      <article class="project-slider" data-slider>
+        <div class="project-slider__viewport">
+          <img src="/images/after2.png" alt="Інтер'єр у ЖК «Нова Англія» — простора студія" class="project-slider__image is-active" data-slide>
+          <img src="/images/before2.png" alt="Інтер'єр у ЖК «Нова Англія» — ванна кімната" class="project-slider__image" data-slide>
+          <img src="/images/after3.png" alt="Інтер'єр у ЖК «Нова Англія» — спальня" class="project-slider__image" data-slide>
+          <img src="/images/before3.png" alt="Інтер'єр у ЖК «Нова Англія» — кухня" class="project-slider__image" data-slide>
+          <button type="button" class="project-slider__control project-slider__control--prev" data-slider-prev aria-label="Попереднє фото">‹</button>
+          <button type="button" class="project-slider__control project-slider__control--next" data-slider-next aria-label="Наступне фото">›</button>
         </div>
-        <p class="ba-caption">Вітальня у ЖК “Парковий”</p>
-      </div>
+        <div class="project-slider__dots">
+          <button type="button" class="project-slider__dot is-active" data-slider-dot aria-label="Фото 1"></button>
+          <button type="button" class="project-slider__dot" data-slider-dot aria-label="Фото 2"></button>
+          <button type="button" class="project-slider__dot" data-slider-dot aria-label="Фото 3"></button>
+          <button type="button" class="project-slider__dot" data-slider-dot aria-label="Фото 4"></button>
+        </div>
+        <p class="project-slider__caption">ЖК «Нова Англія»</p>
+      </article>
 
-      <!-- Добавляй больше блоков по той же структуре -->
+      <article class="project-slider" data-slider>
+        <div class="project-slider__viewport">
+          <img src="/images/after3.png" alt="Інтер'єр у ЖК «Квітневий Сад» — оновлений простір" class="project-slider__image is-active" data-slide>
+          <img src="/images/before3.png" alt="Інтер'єр у ЖК «Квітневий Сад» — коридор" class="project-slider__image" data-slide>
+          <img src="/images/after1.png" alt="Інтер'єр у ЖК «Квітневий Сад» — кухня" class="project-slider__image" data-slide>
+          <img src="/images/before1.png" alt="Інтер'єр у ЖК «Квітневий Сад» — зона відпочинку" class="project-slider__image" data-slide>
+          <button type="button" class="project-slider__control project-slider__control--prev" data-slider-prev aria-label="Попереднє фото">‹</button>
+          <button type="button" class="project-slider__control project-slider__control--next" data-slider-next aria-label="Наступне фото">›</button>
+        </div>
+        <div class="project-slider__dots">
+          <button type="button" class="project-slider__dot is-active" data-slider-dot aria-label="Фото 1"></button>
+          <button type="button" class="project-slider__dot" data-slider-dot aria-label="Фото 2"></button>
+          <button type="button" class="project-slider__dot" data-slider-dot aria-label="Фото 3"></button>
+          <button type="button" class="project-slider__dot" data-slider-dot aria-label="Фото 4"></button>
+        </div>
+        <p class="project-slider__caption">ЖК «Квітневий Сад»</p>
+      </article>
 
     </div>
   </div>
