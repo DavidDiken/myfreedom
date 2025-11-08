@@ -5,20 +5,21 @@
     <div class="hero_left">
         <div class="hero_tag"><p>#РемонтПідОренду</p></div>
         <br>
-        <h1 class="h1">Курс "Як зробити ремонт так, щоб квартира здавалася з першого дня"</h1>
+        <h1 class="h1">Курс <span style="color: #E1CF95;">"Як зробити ремонт так, щоб квартира здавалася з першого дня"</span></h1>
         <br>
-        <h3 style="color: white">Покрокові інструкції від вибору ЖК та планування квартири до здачі першому орендарю<span>...або як підготувати квартиру до здачі в оренду з максимальним доходом</span></h3>
+        <h3 style="color: white">Як підготувати квартиру до здачі в оренду з максимальним доходом</h3>
         <br>
         <br>
         <div class="flex20">
             <a href="#consultation-form"><button>Замовити консультацію</button></a>
-            <p class="sub">Отримай перевірені стандарти від <br>найбільшої управляючої компанії в Україні <span style="color:#E1CF95;">MYFREEDOM</span></p>
+            <!--<p class="sub">Отримай перевірені стандарти від <br>найбільшої управляючої компанії в Україні <span style="color:#E1CF95;">MYFREEDOM</span></p>-->
         </div>
     </div>
     <div class="hero_right">
-        <div class="hero_video">
+        {{-- <div class="hero_video">
             <div class="play-button"></div>
-        </div>
+        </div> --}}
+        <img src="/images/intro_photo.png">
     </div>
 </section>
 <br>
@@ -119,7 +120,7 @@
 
 <section class="multi-before-after">
   <div class="container">
-    <h2>Галерея <span>до / після</span></h2>
+    <h2><span>Приклади робіт</span></h2>
     <p class="description">Кожен приклад — реальна квартира, яку ми підготували до оренди</p>
 
     <div class="before-after-grid">
