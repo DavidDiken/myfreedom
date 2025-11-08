@@ -140,7 +140,7 @@
           <button type="button" class="project-slider__dot" data-slider-dot aria-label="Фото 3"></button>
           <button type="button" class="project-slider__dot" data-slider-dot aria-label="Фото 4"></button>
         </div>
-        <p class="project-slider__caption">Живописна 3</p>
+        <p class="project-slider__caption">вул. Живописна 3</p>
       </article>
 
       <article class="project-slider" data-slider>
@@ -245,7 +245,7 @@
         <div class="invest-plans__grid">
             <article class="invest-card invest-card--basic">
                 <div class="invest-card__head">
-                    <p class="eyebrow">STANDART</p>
+                    {{-- <p class="eyebrow">STANDART</p> --}}
                     <h3>STANDART</h3>
                     <span class="invest-card__tag">Базовий набір матеріалів</span>
                     <p class="invest-card__price">$800</p>
@@ -253,13 +253,13 @@
                 <div class="invest-card__body">
                     <p>Для тих, хто вже має досвід у ремонтах і хоче зробити все сам, але по системі. Ми надаємо стандарти та шаблони, щоб квартира була готова до здачі швидше та якісніше.</p>
                     <a href="" class="link">→ Робите самі, але не наосліп</a>
-                    <a href="#consultation-form" class="btn btn-outline">Обрати STANDART</a>
+                    <a href="#consultation-form" class="btn">Обрати STANDART</a>
                 </div>
             </article>
 
             <article class="invest-card invest-card--gold">
                 <div class="invest-card__head">
-                    <p class="eyebrow">INVEST Smart</p>
+                    {{-- <p class="eyebrow">INVEST Smart</p> --}}
                     <h3>SMART</h3>
                     <span class="invest-card__tag">Автоматизований курс із підтримкою</span>
                     <p class="invest-card__price">$1500</p>
@@ -273,7 +273,7 @@
 
             <article class="invest-card invest-card--Premium">
                 <div class="invest-card__head">
-                    <p class="eyebrow">PREMIUM</p>
+                    {{-- <p class="eyebrow">PREMIUM</p> --}}
                     <h3>PREMIUM</h3>
                     <span class="invest-card__tag">Повний супровід “під ключ” із куратором</span>
                     <p class="invest-card__price">3%</p>
@@ -293,7 +293,7 @@
     <div class="container">
         <div class="package-compare__intro">
             <h2>Порівняння пакетів</h2>
-            <p class="sub">Бачите, який обсяг підтримки отримаєте з кожним рівнем співпраці.</p>
+            {{-- <p class="sub">Бачите, який обсяг підтримки отримаєте з кожним рівнем співпраці.</p> --}}
         </div>
 
         <div class="package-table-wrapper glass">
@@ -301,84 +301,84 @@
                 <thead>
                     <tr>
                         <th style="color: transparent">Послуга / Перевага</th>
-                        <th>PREMIUM</th>
-                        <th>SMART</th>
                         <th>STANDART</th>
+                        <th>SMART</th>
+                        <th>PREMIUM</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <td>Стратегічна консультація</td>
+                        <td data-label="SELF"><span class="package-dash">—</span></td>
+                        <td data-label="SMART"><span class="package-dash">—</span></td>
                         <td data-label="INVEST PREMIUM">
                             <span class="sr-only">Включено</span>
                             <span class="package-note" style="color: #E1CF95;">від 3% від загальної суми інвестиції</span>
                         </td>
-                        <td data-label="SMART"><span class="package-dash">—</span></td>
-                        <td data-label="SELF"><span class="package-dash">—</span></td>
                     </tr>
                     <tr>
                         <td>Юридичний супровід</td>
+                        <td data-label="SELF"><span class="package-dash">—</span></td>
+                        <td data-label="SMART"><span class="package-dash">—</span></td>
                         <td data-label="INVEST PREMIUM">
                             <span class="package-icon package-icon--check" aria-hidden="true">✓</span>
                             <span class="sr-only">Включено</span>
                         </td>
-                        <td data-label="SMART"><span class="package-dash">—</span></td>
-                        <td data-label="SELF"><span class="package-dash">—</span></td>
                     </tr>
                     <tr>
                         <td>Технагляд</td>
-                        <td data-label="INVEST PREMIUM">
+                        <td data-label="SELF">
                             <span class="sr-only">Включено</span>
-                            <span class="package-note" style="color: #E1CF95;">4 виїзди</span>
+                            <span class="package-note" style="color: #E1CF95;">Додатково</span>
                         </td>
                         <td data-label="SMART">
                             <span class="sr-only">Включено</span>
                             <span class="package-note" style="color: #E1CF95;">1 виїзд</span>
                         </td>
-                        <td data-label="SELF">
+                        <td data-label="INVEST PREMIUM">
                             <span class="sr-only">Включено</span>
-                            <span class="package-note" style="color: #E1CF95;">Додатково</span>
+                            <span class="package-note" style="color: #E1CF95;">4 виїзди</span>
                         </td>
                     </tr>
                     <tr>
                         <td>ТЗ та комплектація</td>
-                        <td data-label="INVEST PREMIUM">
+                        <td data-label="SELF">
                             <span class="sr-only">Включено</span>
-                            <span class="package-note" style="color: #E1CF95;">індивідуально</span>
+                            <span class="package-note" style="color: #E1CF95;">інструкція</span>
                         </td>
                         <td data-label="SMART">
                             <span class="sr-only">Включено</span>
                             <span class="package-note" style="color: #E1CF95;">шаблони</span>
                         </td>
-                        <td data-label="SELF">
+                        <td data-label="INVEST PREMIUM">
                             <span class="sr-only">Включено</span>
-                            <span class="package-note" style="color: #E1CF95;">інструкція</span>
+                            <span class="package-note" style="color: #E1CF95;">індивідуально</span>
                         </td>
                     </tr>
                     <tr>
                         <td>Персональний куратор</td>
+                        <td data-label="SELF"><span class="package-dash">—</span></td>
+                        <td data-label="SMART"><span class="package-dash">—</span></td>
                         <td data-label="INVEST PREMIUM">
                             <span class="package-icon package-icon--check" aria-hidden="true">✓</span>
                             <span class="sr-only">Включено</span>
                         </td>
-                        <td data-label="SMART"><span class="package-dash">—</span></td>
-                        <td data-label="SELF"><span class="package-dash">—</span></td>
                     </tr>
                     <tr>
                         <td>Фінальний контроль якості</td>
-                        <td data-label="INVEST PREMIUM">
-                            <span class="package-icon package-icon--check" aria-hidden="true">✓</span>
-                            <span class="sr-only">Включено</span>
-                        </td>
+                        <td data-label="SELF"><span class="package-note" style="color: #E1CF95;">самостійно</span></td>
                         <td data-label="SMART">
                             <span class="package-icon package-icon--check" aria-hidden="true">✓</span>
                             <span class="sr-only">Включено</span>
                         </td>
-                        <td data-label="SELF"><span class="package-note" style="color: #E1CF95;">самостійно</span></td>
+                        <td data-label="INVEST PREMIUM">
+                            <span class="package-icon package-icon--check" aria-hidden="true">✓</span>
+                            <span class="sr-only">Включено</span>
+                        </td>
                     </tr>
                     <tr>
                         <td>ROI-калькулятор і чек-листи</td>
-                        <td data-label="INVEST PREMIUM">
+                        <td data-label="SELF">
                             <span class="package-icon package-icon--check" aria-hidden="true">✓</span>
                             <span class="sr-only">Включено</span>
                         </td>
@@ -386,22 +386,22 @@
                             <span class="package-icon package-icon--check" aria-hidden="true">✓</span>
                             <span class="sr-only">Включено</span>
                         </td>
-                        <td data-label="SELF">
+                        <td data-label="INVEST PREMIUM">
                             <span class="package-icon package-icon--check" aria-hidden="true">✓</span>
                             <span class="sr-only">Включено</span>
                         </td>
                     </tr>
                     <tr>
                         <td>Можливість консультації</td>
-                        <td data-label="INVEST PREMIUM">
-                            <span class="sr-only">Включено</span>
-                            <span class="package-note" style="color: #E1CF95;">у пакеті</span>
-                        </td>
+                        <td data-label="SELF"><span class="package-note" style="color: #E1CF95;">додатково</span></td>
                         <td data-label="SMART">
                             <span class="sr-only">Включено</span>
                             <span class="package-note" style="color: #E1CF95;">1 год</span>
                         </td>
-                        <td data-label="SELF"><span class="package-note" style="color: #E1CF95;">додатково</span></td>
+                        <td data-label="INVEST PREMIUM">
+                            <span class="sr-only">Включено</span>
+                            <span class="package-note" style="color: #E1CF95;">у пакеті</span>
+                        </td>
                     </tr>
                 </tbody>
             </table>
