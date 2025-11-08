@@ -127,10 +127,10 @@
 
       <article class="project-slider" data-slider>
         <div class="project-slider__viewport">
-          <img src="/images/after1.png" alt="Інтер'єр у ЖК «Паркові Озера» — нова кухня" class="project-slider__image is-active" data-slide>
-          <img src="/images/before1.png" alt="Інтер'єр у ЖК «Паркові Озера» — загальний вигляд" class="project-slider__image" data-slide>
-          <img src="/images/after2.png" alt="Інтер'єр у ЖК «Паркові Озера» — зона вітальні" class="project-slider__image" data-slide>
-          <img src="/images/before2.png" alt="Інтер'єр у ЖК «Паркові Озера» — санвузол" class="project-slider__image" data-slide>
+          <img src="/images/1_1.jpg" alt="Живописна 3" class="project-slider__image is-active" data-slide>
+          <img src="/images/1_2.jpg" alt="Живописна 3" class="project-slider__image" data-slide>
+          <img src="/images/1_3.jpg" alt="Живописна 3" class="project-slider__image" data-slide>
+          <img src="/images/1_4.jpg" alt="Живописна 3" class="project-slider__image" data-slide>
           <button type="button" class="project-slider__control project-slider__control--prev" data-slider-prev aria-label="Попереднє фото">‹</button>
           <button type="button" class="project-slider__control project-slider__control--next" data-slider-next aria-label="Наступне фото">›</button>
         </div>
@@ -140,15 +140,15 @@
           <button type="button" class="project-slider__dot" data-slider-dot aria-label="Фото 3"></button>
           <button type="button" class="project-slider__dot" data-slider-dot aria-label="Фото 4"></button>
         </div>
-        <p class="project-slider__caption">ЖК «Паркові Озера»</p>
+        <p class="project-slider__caption">Живописна 3</p>
       </article>
 
       <article class="project-slider" data-slider>
         <div class="project-slider__viewport">
-          <img src="/images/after2.png" alt="Інтер'єр у ЖК «Нова Англія» — простора студія" class="project-slider__image is-active" data-slide>
-          <img src="/images/before2.png" alt="Інтер'єр у ЖК «Нова Англія» — ванна кімната" class="project-slider__image" data-slide>
-          <img src="/images/after3.png" alt="Інтер'єр у ЖК «Нова Англія» — спальня" class="project-slider__image" data-slide>
-          <img src="/images/before3.png" alt="Інтер'єр у ЖК «Нова Англія» — кухня" class="project-slider__image" data-slide>
+          <img src="/images/2_1.jpg" alt="вул. Академіка Вернадського 87" class="project-slider__image is-active" data-slide>
+          <img src="/images/2_2.jpg" alt="вул. Академіка Вернадського 87" class="project-slider__image" data-slide>
+          <img src="/images/2_3.jpg" alt="вул. Академіка Вернадського 87" class="project-slider__image" data-slide>
+          <img src="/images/2_4.jpg" alt="вул. Академіка Вернадського 87" class="project-slider__image" data-slide>
           <button type="button" class="project-slider__control project-slider__control--prev" data-slider-prev aria-label="Попереднє фото">‹</button>
           <button type="button" class="project-slider__control project-slider__control--next" data-slider-next aria-label="Наступне фото">›</button>
         </div>
@@ -158,15 +158,15 @@
           <button type="button" class="project-slider__dot" data-slider-dot aria-label="Фото 3"></button>
           <button type="button" class="project-slider__dot" data-slider-dot aria-label="Фото 4"></button>
         </div>
-        <p class="project-slider__caption">ЖК «Нова Англія»</p>
+        <p class="project-slider__caption">вул. Академіка Вернадського 87</p>
       </article>
 
       <article class="project-slider" data-slider>
         <div class="project-slider__viewport">
-          <img src="/images/after3.png" alt="Інтер'єр у ЖК «Квітневий Сад» — оновлений простір" class="project-slider__image is-active" data-slide>
-          <img src="/images/before3.png" alt="Інтер'єр у ЖК «Квітневий Сад» — коридор" class="project-slider__image" data-slide>
-          <img src="/images/after1.png" alt="Інтер'єр у ЖК «Квітневий Сад» — кухня" class="project-slider__image" data-slide>
-          <img src="/images/before1.png" alt="Інтер'єр у ЖК «Квітневий Сад» — зона відпочинку" class="project-slider__image" data-slide>
+          <img src="/images/3_1.jpg" alt="вул. Родини Крістерів 14" class="project-slider__image is-active" data-slide>
+          <img src="/images/3_2.jpg" alt="вул. Родини Крістерів 14" class="project-slider__image" data-slide>
+          <img src="/images/3_3.jpg" alt="вул. Родини Крістерів 14" class="project-slider__image" data-slide>
+          <img src="/images/3_4.jpg" alt="вул. Родини Крістерів 14" class="project-slider__image" data-slide>
           <button type="button" class="project-slider__control project-slider__control--prev" data-slider-prev aria-label="Попереднє фото">‹</button>
           <button type="button" class="project-slider__control project-slider__control--next" data-slider-next aria-label="Наступне фото">›</button>
         </div>
@@ -176,7 +176,7 @@
           <button type="button" class="project-slider__dot" data-slider-dot aria-label="Фото 3"></button>
           <button type="button" class="project-slider__dot" data-slider-dot aria-label="Фото 4"></button>
         </div>
-        <p class="project-slider__caption">ЖК «Квітневий Сад»</p>
+        <p class="project-slider__caption">вул. Родини Крістерів 14</p>
       </article>
 
     </div>
