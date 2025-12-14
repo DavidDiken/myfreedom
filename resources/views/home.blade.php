@@ -515,23 +515,13 @@
                         <span class="contact-messengers__label">Месенджери:</span>
                         <div class="contact-messengers__links">
                             <a class="messenger-link messenger-link--telegram" href="#" aria-label="Telegram">
-                                <svg viewBox="0 0 24 24" aria-hidden="true">
-                                    <path d="m5.5 12.75 13.7-5.98c.68-.3 1.3.45.86 1.08l-6.2 8.93c-.32.46-1.05.37-1.26-.15l-1.7-4.17-3.4-.71z" fill="currentColor" />
-                                    <path d="m5.5 12.75 4.08 1.26" stroke="#e5f3ff" stroke-width="1.4" stroke-linecap="round" />
-                                </svg>
+                                <img src="{{ asset('images/social/Telegram.svg') }}" alt="Telegram">
                             </a>
                             <a class="messenger-link messenger-link--viber" href="#" aria-label="Viber">
-                                <svg viewBox="0 0 24 24" aria-hidden="true">
-                                    <path d="M6 4h12a2 2 0 0 1 2 2v8.5a2 2 0 0 1-2 2H9l-3 3v-3H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
-                                    <path d="M10.5 8.5c2 .67 2.33 1 3 3" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" />
-                                    <path d="M12 8c2.4 0 4.5 2.1 4.5 4.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" />
-                                </svg>
+                                <img src="{{ asset('images/social/Viber.svg') }}" alt="Viber">
                             </a>
                             <a class="messenger-link messenger-link--whatsapp" href="#" aria-label="WhatsApp">
-                                <svg viewBox="0 0 24 24" aria-hidden="true">
-                                    <path d="M12 4.5a7 7 0 0 0-6.08 10.5L5 21l6-1.36A7 7 0 1 0 12 4.5z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
-                                    <path d="M9.5 9.75c.3 1.42 1.58 2.84 2.93 3.31.55.2 1.2-.09 1.47-.62l.23-.47" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
-                                </svg>
+                                <img src="{{ asset('images/social/WhatsApp.svg') }}" alt="WhatsApp">
                             </a>
                         </div>
                     </div>
@@ -554,10 +544,18 @@
         <div class="contact-social">
             <p class="contact-social__label">Соціальні мережі:</p>
             <div class="contact-social__links">
-                <a class="social-link social-link--facebook" href="#" aria-label="Facebook">f</a>
-                <a class="social-link social-link--instagram" href="#" aria-label="Instagram">ig</a>
-                <a class="social-link social-link--youtube" href="#" aria-label="YouTube">▶</a>
-                <a class="social-link social-link--tiktok" href="#" aria-label="TikTok">♫</a>
+                <a class="social-link social-link--facebook" href="https://www.facebook.com/share/1BgkrkruY1/?mibextid=wwXIfr" aria-label="Facebook">
+                    <img src="{{ asset('images/social/Facebook.svg') }}" alt="Facebook">
+                </a>
+                <a class="social-link social-link--instagram" href="https://www.instagram.com/korchoviy_oleksandr?igsh=MTVuN3FsM2w0d29zMA==" aria-label="Instagram">
+                    <img src="{{ asset('images/social/Instagram.svg') }}" alt="Instagram">
+                </a>
+                <a class="social-link social-link--youtube" href="https://youtube.com/@myfreedomglobal?si=IXvWcZQRfqqxz7Zz" aria-label="YouTube">
+                    <img src="{{ asset('images/social/Youtube.svg') }}" alt="YouTube">
+                </a>
+                <a class="social-link social-link--tiktok" href="https://www.tiktok.com/@myfreedomrent?_t=ZM-90tfekn6JDc&_r=1" aria-label="TikTok">
+                    <img src="{{ asset('images/social/Tik Tok.svg') }}" alt="TikTok">
+                </a>
             </div>
         </div>
     </section>
