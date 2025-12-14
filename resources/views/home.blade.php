@@ -249,6 +249,7 @@
                     <h3>STANDART</h3>
                     <span class="invest-card__tag">Базовий набір матеріалів</span>
                     <p class="invest-card__price">$800</p>
+                    <br>
                 </div>
                 <div class="invest-card__body">
                     <p>Для тих, хто вже має досвід у ремонтах і хоче зробити все сам, але по системі. Ми надаємо стандарти та шаблони, щоб квартира була готова до здачі швидше та якісніше.</p>
@@ -263,6 +264,7 @@
                     <h3>SMART</h3>
                     <span class="invest-card__tag">Автоматизований курс із підтримкою</span>
                     <p class="invest-card__price">$1500</p>
+                    <br>
                 </div>
                 <div class="invest-card__body">
                     <p>Для тих, хто хоче пройти шлях самостійно, але за перевіреною системою. Отримуєте чеклісти, інструкції, калькулятори, приклади та технічний аудит ключових етапів.</p>
@@ -276,7 +278,8 @@
                     {{-- <p class="eyebrow">PREMIUM</p> --}}
                     <h3>PREMIUM</h3>
                     <span class="invest-card__tag">Повний супровід “під ключ” із куратором</span>
-                    <p class="invest-card__price">3%</p>
+                    <p class="invest-card__price">3-5%</p>
+                    <p>від загальної суми інвестицій</p>
                 </div>
                 <div class="invest-card__body">
                     <p>Для тих, хто хоче максимально зекономити час: ми допомагаємо від підбору квартири / ремонту до заселення першого орендаря.</p>
@@ -313,7 +316,7 @@
                         <td data-label="SMART"><span class="package-dash">—</span></td>
                         <td data-label="INVEST PREMIUM">
                             <span class="sr-only">Включено</span>
-                            <span class="package-note" style="color: #E1CF95;">від 3% від загальної суми інвестиції</span>
+                            <span class="package-note" style="color: #E1CF95;">3-5% від загальної <br>суми інвестиції</span>
                         </td>
                     </tr>
                     <tr>
@@ -329,7 +332,7 @@
                         <td>Технагляд</td>
                         <td data-label="SELF">
                             <span class="sr-only">Включено</span>
-                            <span class="package-note" style="color: #E1CF95;">Додатково</span>
+                            <span class="package-note" style="color: #E1CF95;">додатково</span>
                         </td>
                         <td data-label="SMART">
                             <span class="sr-only">Включено</span>
