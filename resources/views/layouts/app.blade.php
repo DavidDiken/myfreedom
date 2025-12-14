@@ -49,8 +49,15 @@
 <div class="container">
         @yield('content')
     </div>
-    <footer class="container">
-        &copy; {{ date('Y') }} MYFREEDOM. All rights reserved.
+    <footer class="container site-footer">
+        <div class="site-footer__content">
+            <span>&copy; {{ date('Y') }} MYFREEDOM. All rights reserved.</span>
+            <nav class="site-footer__links" aria-label="Footer">
+                <a href="https://myfreedom.rent/invest/about">Про MYFREEDOM</a>
+                <a href="https://myfreedom.rent/invest/public-offer">Договір публічної оферти</a>
+                <a href="https://myfreedom.rent/invest/privacy-policy">Політика конфеденційності</a>
+            </nav>
+        </div>
     </footer>
     <script>
         document.addEventListener('DOMContentLoaded', () => {
