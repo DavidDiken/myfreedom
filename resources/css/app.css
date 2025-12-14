@@ -1458,6 +1458,220 @@ table tr th:first-child {
     text-align: left;
 }
 
+.contact-block {
+  margin: 80px 0 40px;
+  padding: 52px 56px;
+  background: #f7f5ee;
+  border-radius: 32px;
+  box-shadow: 0 18px 36px rgba(0, 0, 0, 0.24);
+  color: #0f172a;
+}
+
+.contact-block__header {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.contact-block__header h2 {
+  color: #0f172a;
+  font-size: clamp(26px, 4vw, 36px);
+  margin: 0;
+}
+
+.contact-block__header p {
+  margin: 12px auto 0;
+  max-width: 760px;
+  color: #475569;
+  font-size: 18px;
+}
+
+.contact-block__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #e5e7eb;
+}
+
+.contact-card {
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+  background: #ffffff;
+  border: 1px solid rgba(25, 68, 60, 0.12);
+  border-radius: 24px;
+  padding: 22px 24px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08);
+}
+
+.contact-card__icon {
+  flex-shrink: 0;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: #19443C;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+}
+
+.contact-card__icon svg {
+  width: 28px;
+  height: 28px;
+}
+
+.contact-card__body {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.contact-card__label {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+}
+
+.contact-card__value {
+  font-size: 20px;
+  font-weight: 800;
+  color: #0f172a;
+  text-decoration: none;
+  word-break: break-word;
+}
+
+.contact-card__value:hover {
+  color: #19443C;
+}
+
+.contact-card__value--sm {
+  font-size: 18px;
+}
+
+.contact-messengers {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+
+.contact-messengers__label {
+  color: #475569;
+  font-weight: 700;
+}
+
+.contact-messengers__links {
+  display: flex;
+  gap: 10px;
+}
+
+.messenger-link {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  text-decoration: none;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.messenger-link svg {
+  width: 22px;
+  height: 22px;
+}
+
+.messenger-link:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 18px rgba(0, 0, 0, 0.16);
+}
+
+.messenger-link--telegram {
+  background: #2AABEE;
+}
+
+.messenger-link--viber {
+  background: #7360F2;
+}
+
+.messenger-link--whatsapp {
+  background: #25D366;
+}
+
+.contact-social {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 26px;
+  flex-wrap: wrap;
+  color: #0f172a;
+}
+
+.contact-social__label {
+  margin: 0;
+  font-weight: 800;
+}
+
+.contact-social__links {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.social-link {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-weight: 800;
+  text-decoration: none;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.social-link:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 22px rgba(0, 0, 0, 0.16);
+}
+
+.social-link--facebook {
+  background: #1877F2;
+}
+
+.social-link--instagram {
+  background: linear-gradient(135deg, #f58529, #dd2a7b, #8134af, #515bd4);
+}
+
+.social-link--youtube {
+  background: #ff0000;
+}
+
+.social-link--tiktok {
+  background: #111827;
+}
+
+@media (max-width: 768px) {
+  .contact-block {
+    padding: 36px 28px;
+    margin: 64px 0 32px;
+  }
+
+  .contact-block__grid {
+    padding-top: 16px;
+  }
+
+  .contact-card {
+    flex-direction: column;
+  }
+}
+
 @media (max-width: 768px) {
   .invest-plans {
     padding: 60px 0;
