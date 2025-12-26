@@ -78,6 +78,7 @@ class PageController extends Controller
                 'hero_heading' => 'Тариф Premium — найповніший пакет з персональними рекомендаціями',
                 'hero_subheading' => 'Для тих, хто хоче максимально зекономити час: ми допомагаємо від підбору квартири / ремонту до заселення першого орендаря.',
                 'price' => '3-5%',
+                'price_text' => 'від загальної суми інвестицій',
                 'cta_label' => 'Забронювати Premium',
                 'cta_target' => '#consultation-form',
                 'summary' => [

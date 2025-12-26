@@ -13,6 +13,11 @@
         <div class="tariff-hero__grid">
             <div class="tariff-hero__column">
                 <p class="tariff-hero__price">{{ $currentTariff['price'] }}</p>
+                <p class="tariff-hero__badge">
+                    @if(!empty($currentTariff['price_text']))
+                        <span class="tariff-switcher__price">{{ $currentTariff['price_text'] }}</span>
+                    @endif
+                </p>
                 <p class="tariff-hero__badge">{{ $currentTariff['badge'] }}</p>
             </div>
             <div class="tariff-hero__column">

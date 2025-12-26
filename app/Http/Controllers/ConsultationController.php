@@ -47,7 +47,7 @@ class ConsultationController extends Controller
             'preferred' => $data['preferred'] ?? null,
         ]);
 
-        Mail::to('kaper1996@gmail.com')->send(
+        Mail::to('myfreedominvestsales1@gmail.com')->send(
             new ConsultationRequestSubmitted($consultationRequest)
         );
 
