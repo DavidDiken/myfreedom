@@ -22,23 +22,12 @@
     <!-- бургер для мобилы -->
     <div class="burger" id="burger">&#9776;</div>
 
-    @php
-        $navTariffs = [
-            'Standart' => 'Standart',
-            'Smart' => 'Smart',
-            'Premium' => 'Premium',
-        ];
-        $activeTariff = request()->routeIs('tariffs.show') ? request()->route('tariff') : null;
-    @endphp
-
     <div class="nav-center" id="nav-menu">
         <a href="{{ route('home') }}" class="{{ request()->routeIs('home') ? 'active' : '' }}">Головна</a>
-        @foreach($navTariffs as $slug => $label)
-            <a href="{{ route('tariffs.show', ['tariff' => $slug]) }}"
-               class="{{ ($activeTariff === $slug) ? 'active' : '' }}">
-                {{ $label }}
-            </a>
-        @endforeach
+        <a href="{{ route('home') }}#course-benefits">Рішення</a>
+        <a href="{{ route('home') }}#stats-section">Переваги</a>
+        <a href="{{ route('home') }}#multi-before-after">Кейси</a>
+        <a href="{{ route('home') }}#invest-plans">Тарифи</a>
     </div>
 
     <div class="nav-right">

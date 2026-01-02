@@ -24,7 +24,7 @@
 </section>
 <br>
 <br>
-<section class="course-benefits">
+<section class="course-benefits" id="course-benefits">
   <div class="container" style="display: flex; flex-direction: column; align-items: center;">
     <div class="section-header">
       <h2>Для кого буде корисним цей курс?</h2>
@@ -90,7 +90,7 @@
       <a href=""><button>Подивитись пакети курсу</button></a>
   </div>
 </section>
-<section class="stats-section">
+<section class="stats-section" id="stats-section">
     <div class="container statistic-block">
         <h2>Цей курс - не теорія, а реальний досвід <span>MYFREEDOM</span></h2>
         <div class="stats-grid">
@@ -118,7 +118,7 @@
     </div>
 </section>
 
-<section class="multi-before-after">
+<section class="multi-before-after" id="multi-before-after">
   <div class="container">
     <h2><span>Готові інтер'єри</span></h2>
     <p class="description">Три реальні кейси, де MYFREEDOM підготував квартири до прибуткової оренди</p>
@@ -336,7 +336,7 @@
 </section>
 
 
-<section class="invest-plans">
+<section class="invest-plans" id="invest-plans">
     <div class="container">
         <div class="invest-plans__intro">
             <h2>Пакети участі</h2>
