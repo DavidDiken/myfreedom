@@ -354,7 +354,7 @@
                 </div>
                 <div class="invest-card__body">
                     <p>Для тих, хто вже має досвід у ремонтах і хоче зробити все сам, але по системі. Ми надаємо стандарти та шаблони, щоб квартира була готова до здачі швидше та якісніше.</p>
-                    <a href="" class="link">→ Робите самі, але не наосліп</a>
+                    <a href="/tariffs/Standart" class="link">→ Робите самі, але не наосліп</a>
                     <a href="#consultation-form" class="btn">Обрати STANDART</a>
                 </div>
             </article>
@@ -369,7 +369,7 @@
                 </div>
                 <div class="invest-card__body">
                     <p>Для тих, хто хоче пройти шлях самостійно, але за перевіреною системою. Отримуєте чеклісти, інструкції, калькулятори, приклади та технічний аудит ключових етапів.</p>
-                    <a href="" class="link">→ Власний досвід — без зайвих помилок</a>
+                    <a href="/tariffs/Smart" class="link">→ Власний досвід — без зайвих помилок</a>
                     <a href="#consultation-form" class="btn">Обрати SMART</a>
                 </div>
             </article>
@@ -384,7 +384,7 @@
                 </div>
                 <div class="invest-card__body">
                     <p>Для тих, хто хоче максимально зекономити час: ми допомагаємо від підбору квартири / ремонту до заселення першого орендаря.</p>
-                    <a href="" class="link">→ Мінімум ризиків, максимум спокою</a>
+                    <a href="/tariffs/Premium" class="link">→ Мінімум ризиків, максимум спокою</a>
                     <a href="#consultation-form" class="btn" style="margin-top: 54px;">Обрати PREMIUM</a>
                 </div>
             </article>
