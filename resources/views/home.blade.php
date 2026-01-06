@@ -145,10 +145,10 @@
 
       <article class="project-slider" data-slider>
         <div class="project-slider__viewport">
-          <img src="/images/2_1.jpg" alt="вул. Академіка Вернадського 87" class="project-slider__image is-active" data-slide>
-          <img src="/images/2_2.jpg" alt="вул. Академіка Вернадського 87" class="project-slider__image" data-slide>
-          <img src="/images/2_3.jpg" alt="вул. Академіка Вернадського 87" class="project-slider__image" data-slide>
-          <img src="/images/2_4.jpg" alt="вул. Академіка Вернадського 87" class="project-slider__image" data-slide>
+          <img src="/images/2_1.jpg" alt="вул. Івана Виговського, 10С" class="project-slider__image is-active" data-slide>
+          <img src="/images/2_2.jpg" alt="вул. Івана Виговського, 10С" class="project-slider__image" data-slide>
+          <img src="/images/2_3.jpg" alt="вул. Івана Виговського, 10С" class="project-slider__image" data-slide>
+          <img src="/images/2_4.jpg" alt="вул. Івана Виговського, 10С" class="project-slider__image" data-slide>
           <button type="button" class="project-slider__control project-slider__control--prev" data-slider-prev aria-label="Попереднє фото">‹</button>
           <button type="button" class="project-slider__control project-slider__control--next" data-slider-next aria-label="Наступне фото">›</button>
         </div>
@@ -158,14 +158,14 @@
           <button type="button" class="project-slider__dot" data-slider-dot aria-label="Фото 3"></button>
           <button type="button" class="project-slider__dot" data-slider-dot aria-label="Фото 4"></button>
         </div>
-        <p class="project-slider__caption">вул. Академіка Вернадського 87</p>
+        <p class="project-slider__caption">вул. Івана Виговського, 10С</p>
       </article>
       <article class="project-slider" data-slider>
         <div class="project-slider__viewport">
-          <img src="/images/3_1.jpg" alt="вул. Родини Крістерів 14" class="project-slider__image is-active" data-slide>
-          <img src="/images/3_2.jpg" alt="вул. Родини Крістерів 14" class="project-slider__image" data-slide>
-          <img src="/images/3_3.jpg" alt="вул. Родини Крістерів 14" class="project-slider__image" data-slide>
-          <img src="/images/3_4.jpg" alt="вул. Родини Крістерів 14" class="project-slider__image" data-slide>
+          <img src="/images/3_1.jpg" alt="вул. Лук'янівська 22" class="project-slider__image is-active" data-slide>
+          <img src="/images/3_2.jpg" alt="вул. Лук'янівська 22" class="project-slider__image" data-slide>
+          <img src="/images/3_3.jpg" alt="вул. Лук'янівська 22" class="project-slider__image" data-slide>
+          <img src="/images/3_4.jpg" alt="вул. Лук'янівська 22" class="project-slider__image" data-slide>
           <button type="button" class="project-slider__control project-slider__control--prev" data-slider-prev aria-label="Попереднє фото">‹</button>
           <button type="button" class="project-slider__control project-slider__control--next" data-slider-next aria-label="Наступне фото">›</button>
         </div>
@@ -175,15 +175,15 @@
           <button type="button" class="project-slider__dot" data-slider-dot aria-label="Фото 3"></button>
           <button type="button" class="project-slider__dot" data-slider-dot aria-label="Фото 4"></button>
         </div>
-        <p class="project-slider__caption">вул. Родини Крістерів 14</p>
+        <p class="project-slider__caption">вул. Лук'янівська 22</p>
       </article>
 
       <article class="project-slider" data-slider>
         <div class="project-slider__viewport">
-          <img src="/images/4_1.jpg" alt="вул. Родини Крістерів 14" class="project-slider__image is-active" data-slide>
-          <img src="/images/4_2.jpg" alt="вул. Родини Крістерів 14" class="project-slider__image" data-slide>
-          <img src="/images/4_3.jpg" alt="вул. Родини Крістерів 14" class="project-slider__image" data-slide>
-          <img src="/images/4_4.jpg" alt="вул. Родини Крістерів 14" class="project-slider__image" data-slide>
+          <img src="/images/4_1.jpg" alt="вул. Максимовича 32А" class="project-slider__image is-active" data-slide>
+          <img src="/images/4_2.jpg" alt="вул. Максимовича 32А" class="project-slider__image" data-slide>
+          <img src="/images/4_3.jpg" alt="вул. Максимовича 32А" class="project-slider__image" data-slide>
+          <img src="/images/4_4.jpg" alt="вул. Максимовича 32А" class="project-slider__image" data-slide>
           <button type="button" class="project-slider__control project-slider__control--prev" data-slider-prev aria-label="Попереднє фото">‹</button>
           <button type="button" class="project-slider__control project-slider__control--next" data-slider-next aria-label="Наступне фото">›</button>
         </div>
@@ -193,14 +193,14 @@
           <button type="button" class="project-slider__dot" data-slider-dot aria-label="Фото 3"></button>
           <button type="button" class="project-slider__dot" data-slider-dot aria-label="Фото 4"></button>
         </div>
-        <p class="project-slider__caption">вул. Родини Крістерів 14</p>
+        <p class="project-slider__caption">вул. Максимовича 32А</p>
       </article>
       <article class="project-slider" data-slider>
         <div class="project-slider__viewport">
-          <img src="/images/5_1.jpg" alt="вул. Родини Крістерів 14" class="project-slider__image is-active" data-slide>
-          <img src="/images/5_2.jpg" alt="вул. Родини Крістерів 14" class="project-slider__image" data-slide>
-          <img src="/images/5_3.jpg" alt="вул. Родини Крістерів 14" class="project-slider__image" data-slide>
-          <img src="/images/5_4.jpg" alt="вул. Родини Крістерів 14" class="project-slider__image" data-slide>
+          <img src="/images/5_1.jpg" alt="ЖК Нова Англія вул. Максимовича 26Б" class="project-slider__image is-active" data-slide>
+          <img src="/images/5_2.jpg" alt="ЖК Нова Англія вул. Максимовича 26Б" class="project-slider__image" data-slide>
+          <img src="/images/5_3.jpg" alt="ЖК Нова Англія вул. Максимовича 26Б" class="project-slider__image" data-slide>
+          <img src="/images/5_4.jpg" alt="ЖК Нова Англія вул. Максимовича 26Б" class="project-slider__image" data-slide>
           <button type="button" class="project-slider__control project-slider__control--prev" data-slider-prev aria-label="Попереднє фото">‹</button>
           <button type="button" class="project-slider__control project-slider__control--next" data-slider-next aria-label="Наступне фото">›</button>
         </div>
@@ -210,14 +210,14 @@
           <button type="button" class="project-slider__dot" data-slider-dot aria-label="Фото 3"></button>
           <button type="button" class="project-slider__dot" data-slider-dot aria-label="Фото 4"></button>
         </div>
-        <p class="project-slider__caption">вул. Родини Крістерів 14</p>
+        <p class="project-slider__caption">ЖК Нова Англія вул. Максимовича 26Б</p>
       </article>
       <article class="project-slider" data-slider>
         <div class="project-slider__viewport">
-          <img src="/images/6_1.jpg" alt="вул. Родини Крістерів 14" class="project-slider__image is-active" data-slide>
-          <img src="/images/6_2.jpg" alt="вул. Родини Крістерів 14" class="project-slider__image" data-slide>
-          <img src="/images/6_3.jpg" alt="вул. Родини Крістерів 14" class="project-slider__image" data-slide>
-          <img src="/images/6_4.jpg" alt="вул. Родини Крістерів 14" class="project-slider__image" data-slide>
+          <img src="/images/6_1.jpg" alt="просп. Степана Бандери 32" class="project-slider__image is-active" data-slide>
+          <img src="/images/6_2.jpg" alt="просп. Степана Бандери 32" class="project-slider__image" data-slide>
+          <img src="/images/6_3.jpg" alt="просп. Степана Бандери 32" class="project-slider__image" data-slide>
+          <img src="/images/6_4.jpg" alt="просп. Степана Бандери 32" class="project-slider__image" data-slide>
           <button type="button" class="project-slider__control project-slider__control--prev" data-slider-prev aria-label="Попереднє фото">‹</button>
           <button type="button" class="project-slider__control project-slider__control--next" data-slider-next aria-label="Наступне фото">›</button>
         </div>
@@ -227,14 +227,14 @@
           <button type="button" class="project-slider__dot" data-slider-dot aria-label="Фото 3"></button>
           <button type="button" class="project-slider__dot" data-slider-dot aria-label="Фото 4"></button>
         </div>
-        <p class="project-slider__caption">вул. Родини Крістерів 14</p>
+        <p class="project-slider__caption">просп. Степана Бандери 32</p>
       </article>
       <article class="project-slider" data-slider>
         <div class="project-slider__viewport">
-          <img src="/images/7_1.jpg" alt="вул. Родини Крістерів 14" class="project-slider__image is-active" data-slide>
-          <img src="/images/7_2.jpg" alt="вул. Родини Крістерів 14" class="project-slider__image" data-slide>
-          <img src="/images/7_3.jpg" alt="вул. Родини Крістерів 14" class="project-slider__image" data-slide>
-          <img src="/images/7_4.jpg" alt="вул. Родини Крістерів 14" class="project-slider__image" data-slide>
+          <img src="/images/7_1.jpg" alt="вул. Чикаленка Євгена 33" class="project-slider__image is-active" data-slide>
+          <img src="/images/7_2.jpg" alt="вул. Чикаленка Євгена 33" class="project-slider__image" data-slide>
+          <img src="/images/7_3.jpg" alt="вул. Чикаленка Євгена 33" class="project-slider__image" data-slide>
+          <img src="/images/7_4.jpg" alt="вул. Чикаленка Євгена 33" class="project-slider__image" data-slide>
           <button type="button" class="project-slider__control project-slider__control--prev" data-slider-prev aria-label="Попереднє фото">‹</button>
           <button type="button" class="project-slider__control project-slider__control--next" data-slider-next aria-label="Наступне фото">›</button>
         </div>
@@ -244,14 +244,14 @@
           <button type="button" class="project-slider__dot" data-slider-dot aria-label="Фото 3"></button>
           <button type="button" class="project-slider__dot" data-slider-dot aria-label="Фото 4"></button>
         </div>
-        <p class="project-slider__caption">вул. Родини Крістерів 14</p>
+        <p class="project-slider__caption">вул. Чикаленка Євгена 33</p>
       </article>
       <article class="project-slider" data-slider>
         <div class="project-slider__viewport">
-          <img src="/images/8_1.jpg" alt="вул. Родини Крістерів 14" class="project-slider__image is-active" data-slide>
-          <img src="/images/8_2.jpg" alt="вул. Родини Крістерів 14" class="project-slider__image" data-slide>
-          <img src="/images/8_3.jpg" alt="вул. Родини Крістерів 14" class="project-slider__image" data-slide>
-          <img src="/images/8_4.jpg" alt="вул. Родини Крістерів 14" class="project-slider__image" data-slide>
+          <img src="/images/8_1.jpg" alt="вул. Олеся Бердника 1Д" class="project-slider__image is-active" data-slide>
+          <img src="/images/8_2.jpg" alt="вул. Олеся Бердника 1Д" class="project-slider__image" data-slide>
+          <img src="/images/8_3.jpg" alt="вул. Олеся Бердника 1Д" class="project-slider__image" data-slide>
+          <img src="/images/8_4.jpg" alt="вул. Олеся Бердника 1Д" class="project-slider__image" data-slide>
           <button type="button" class="project-slider__control project-slider__control--prev" data-slider-prev aria-label="Попереднє фото">‹</button>
           <button type="button" class="project-slider__control project-slider__control--next" data-slider-next aria-label="Наступне фото">›</button>
         </div>
@@ -261,14 +261,14 @@
           <button type="button" class="project-slider__dot" data-slider-dot aria-label="Фото 3"></button>
           <button type="button" class="project-slider__dot" data-slider-dot aria-label="Фото 4"></button>
         </div>
-        <p class="project-slider__caption">вул. Родини Крістерів 14</p>
+        <p class="project-slider__caption">вул. Олеся Бердника 1Д</p>
       </article>
       <article class="project-slider" data-slider>
         <div class="project-slider__viewport">
-          <img src="/images/9_1.jpg" alt="вул. Родини Крістерів 14" class="project-slider__image is-active" data-slide>
-          <img src="/images/9_2.jpg" alt="вул. Родини Крістерів 14" class="project-slider__image" data-slide>
-          <img src="/images/9_3.jpg" alt="вул. Родини Крістерів 14" class="project-slider__image" data-slide>
-          <img src="/images/9_4.jpg" alt="вул. Родини Крістерів 14" class="project-slider__image" data-slide>
+          <img src="/images/9_1.jpg" alt="просп. Степана Бандери 32" class="project-slider__image is-active" data-slide>
+          <img src="/images/9_2.jpg" alt="просп. Степана Бандери 32" class="project-slider__image" data-slide>
+          <img src="/images/9_3.jpg" alt="просп. Степана Бандери 32" class="project-slider__image" data-slide>
+          <img src="/images/9_4.jpg" alt="просп. Степана Бандери 32" class="project-slider__image" data-slide>
           <button type="button" class="project-slider__control project-slider__control--prev" data-slider-prev aria-label="Попереднє фото">‹</button>
           <button type="button" class="project-slider__control project-slider__control--next" data-slider-next aria-label="Наступне фото">›</button>
         </div>
@@ -278,7 +278,7 @@
           <button type="button" class="project-slider__dot" data-slider-dot aria-label="Фото 3"></button>
           <button type="button" class="project-slider__dot" data-slider-dot aria-label="Фото 4"></button>
         </div>
-        <p class="project-slider__caption">вул. Родини Крістерів 14</p>
+        <p class="project-slider__caption">просп. Степана Бандери 32</p>
       </article>
     </div>
   </div>
